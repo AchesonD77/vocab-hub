@@ -1,0 +1,180 @@
+<!-- Dan: 网页主结构 -->
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lexis.Pro — 个人学术与生活语料库</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Revolut 风格极光背景光晕 -->
+  <div class="aurora-bg" aria-hidden="true">
+    <div class="aurora-blob blob-1"></div>
+    <div class="aurora-blob blob-2"></div>
+    <div class="aurora-blob blob-3"></div>
+  </div>
+
+  <!-- 顶部毛玻璃导航栏 -->
+  <header class="top-nav">
+    <div class="nav-container">
+      <div class="brand">
+        <div class="brand-logo">L</div>
+        <div class="brand-text">
+          <span class="brand-title">Lexis<span class="accent-dot">.</span>Pro</span>
+          <span class="brand-subtitle">Personal Corpus & Active Recall</span>
+        </div>
+        <select id="weekSelector" class="week-select" aria-label="选择周次">
+          <option value="2026-09-w3">2026年 · 9月第3周</option>
+        </select>
+      </div>
+
+      <div class="nav-actions">
+        <!-- 新增：50张自然风景切换按钮 -->
+        <button id="bgSwitchBtn" class="pill-btn" title="随机切换50张山水/雪地/河流自然风光背景">
+          <span class="icon">🏔️</span>
+          <span id="bgIndexLabel">切换风景 (1/50)</span>
+        </button>
+
+        <!-- 新增：恢复极简纯净背景按钮 -->
+        <button id="bgMinimalBtn" class="pill-btn" title="恢复 Apple × Revolut 极简纯色极光背景">
+          <span class="icon">✨</span>
+          <span>极简背景</span>
+        </button>
+
+      <div class="nav-actions">
+        <!-- 发音口音切换 -->
+        <button id="accentToggle" class="pill-btn" title="切换英式/美式发音">
+          <span class="icon">🇬🇧</span>
+          <span id="accentLabel">UK 发音</span>
+        </button>
+
+        <!-- 主动回忆遮挡自测开关 -->
+        <button id="recallToggle" class="pill-btn" title="开启后默认模糊中英文释义，点击或悬停卡片可查看">
+          <span class="icon">👁️</span>
+          <span>遮挡自测</span>
+        </button>
+
+        <!-- 深浅主题切换 -->
+        <button id="themeToggle" class="icon-btn" title="切换 Revolut 暗黑 / Apple 浅色主题" aria-label="切换主题">
+          <span id="themeIcon">☀️</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-container">
+    <!-- Hero 标题区 -->
+    <section class="hero-section">
+      <div class="hero-badge">WEEKLY CORPUS ARCHIVE</div>
+      <h1 class="hero-title">9月第3周 · 核心语料库</h1>
+      <p class="hero-desc">
+        涵盖计算机系统科研（CS & Systems）、学术论文写作（Academic & IELTS）与英伦日常表达。支持真双语发音、原形溯源与间隔自测。
+      </p>
+    </section>
+
+    <!-- Apple Bento Grid 统计仪表盘 -->
+    <section class="bento-grid">
+      <div class="bento-card">
+        <div class="bento-header">
+          <span class="bento-label">精选核心词条</span>
+          <span class="bento-tag">已清洗去重</span>
+        </div>
+        <div class="bento-value" id="statTotal">0</div>
+        <div class="bento-foot" id="statFreqNote">含多处跨日高频复现词汇</div>
+      </div>
+
+      <div class="bento-card">
+        <div class="bento-header">
+          <span class="bento-label">语域分布 (Domain Mix)</span>
+          <span class="bento-tag">跨学科</span>
+        </div>
+        <div class="domain-bars" id="domainBars">
+          <!-- 由 JS 动态渲染占比条 -->
+        </div>
+        <div class="bento-foot" id="domainLegend">CS科研 · 学术通用 · 英伦日常</div>
+      </div>
+
+      <div class="bento-card">
+        <div class="bento-header">
+          <span class="bento-label">掌握度进度 (Active Recall)</span>
+          <button id="resetProgressBtn" class="text-link-btn" title="重置所有单词的自测状态">重置</button>
+        </div>
+        <div class="mastery-stats">
+          <div class="mastery-item">
+            <span class="m-dot dot-unattempted"></span>
+            <span class="m-name">Not Attempted</span>
+            <strong id="countUnattempted">0</strong>
+          </div>
+          <div class="mastery-item">
+            <span class="m-dot dot-partially"></span>
+            <span class="m-name">Partially</span>
+            <strong id="countPartially">0</strong>
+          </div>
+          <div class="mastery-item">
+            <span class="m-dot dot-mastered"></span>
+            <span class="m-name">Mastered</span>
+            <strong id="countMastered">0</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 多维筛选与搜索控制栏 -->
+    <section class="filter-bar">
+      <div class="filter-group">
+        <!-- 日期切换 -->
+        <div class="segmented-control" id="dateFilter">
+          <button class="seg-btn active" data-date="all">全部日期</button>
+          <button class="seg-btn" data-date="2026-09-13">9月13日</button>
+          <button class="seg-btn" data-date="2026-09-15">9月15日</button>
+          <button class="seg-btn" data-date="2026-09-16">9月16日</button>
+        </div>
+
+        <!-- 领域筛选 -->
+        <div class="segmented-control" id="domainFilter">
+          <button class="seg-btn active" data-domain="all">全部领域</button>
+          <button class="seg-btn" data-domain="CS & 系统">💻 CS与系统</button>
+          <button class="seg-btn" data-domain="学术高频">🎓 学术雅思</button>
+          <button class="seg-btn" data-domain="英式日常">☕ 英式日常</button>
+        </div>
+      </div>
+
+      <div class="search-and-status">
+        <select id="statusFilter" class="status-select" aria-label="按掌握状态筛选">
+          <option value="all">全部掌握度</option>
+          <option value="freq">🔥 仅看高频重现词</option>
+          <option value="Not Attempted">⚪ Not Attempted (未自测)</option>
+          <option value="Partially">🟡 Partially (模糊)</option>
+          <option value="Mastered">🟢 Mastered (已掌握)</option>
+        </select>
+
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="搜索单词、原文短语、中文释义或搭配..."
+            autocomplete="off"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- 单词卡片网格 -->
+    <section id="wordGrid" class="word-grid">
+      <!-- 由 JS 动态渲染单词卡片 -->
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Lexis.Pro Personal Vocabulary Engine · Hosted on GitHub Pages · Crafted with Apple & Revolut Design Language</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
