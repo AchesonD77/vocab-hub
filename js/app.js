@@ -1531,6 +1531,1585 @@ const VOCAB_DATA_2026_09_W3 = [
     dailyCn: "我们的户外野餐计划取决于明天的天气预报情况。",
     ieltsEn: "In conditional routing architectures, expert selection is dynamically conditioned on the complexity of each input token.",
     ieltsCn: "在条件路由架构中，专家模块的选择动态地以每个输入词元的复杂度为条件。"
+  },
+  // ==================== 2026年9月15日（后半部分全部补齐，100%收官9月15日） ====================
+  {
+    id: "w3-81",
+    date: "2026-09-15",
+    lemma: "instance",
+    raw: "Instance",
+    pos: "n.",
+    phonetic: "/ˈɪnstəns/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "①【CS/云计算】实例（类的具体对象、云主机实例或问题算例）；② 例子 / 具体情况",
+    en: "An example or single occurrence of something; in computing, a concrete realization of a class, virtual machine, or benchmark problem.",
+    synonyms: ["example", "case", "object"],
+    collocations: ["cloud compute instance", "problem instance", "for instance"],
+    morphology: "in-（在内）+ st（站立）+ -ance → 站在面前的具体事例。同周关联动词：instantiate（实例化，9月16日）。",
+    dailyEn: "In most instances, restarting the router fixes temporary connection drops.",
+    dailyCn: "在大多数情况下，重启路由器就能解决暂时的断网问题。",
+    ieltsEn: "Each benchmark instance is executed five times on an isolated cloud instance to minimize performance variance.",
+    ieltsCn: "每个基准测试算例都在隔离的云实例上运行五次，以最小化性能波动。"
+  },
+  {
+    id: "w3-82",
+    date: "2026-09-15",
+    lemma: "ambiguity",
+    raw: "Ambiguity",
+    pos: "n.",
+    phonetic: "/ˌæmbɪˈɡjuːəti/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "歧义性；模棱两可；不明确的状态",
+    en: "The quality of being open to more than one interpretation; inexactness or uncertainty of meaning.",
+    synonyms: ["vagueness", "uncertainty", "equivocation"],
+    collocations: ["lexical ambiguity", "resolve ambiguity", "avoid ambiguity"],
+    morphology: "ambi-（双向/两边）+ agere（驱使）+ -ity。同周反义动作词：disambiguate（消除歧义，9月13日）。",
+    dailyEn: "Please word the contract carefully so there is no room for ambiguity.",
+    dailyCn: "请仔细斟酌合同措辞，以免留下任何模棱两可的余地。",
+    ieltsEn: "Syntactic ambiguity in natural language queries often necessitates interactive clarification from the user.",
+    ieltsCn: "自然语言查询中的句法歧义往往需要用户进行交互式澄清。"
+  },
+  {
+    id: "w3-83",
+    date: "2026-09-15",
+    lemma: "mean of qualified daily evidence",
+    raw: "mean of qualified daily evidence",
+    pos: "n. phr.",
+    phonetic: "/miːn ɒv ˈkwɒlɪfaɪd ˈdeɪli ˈevɪdəns/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "合格每日证据均值（按日聚合过滤后有效观测样本的统计平均值）",
+    en: "A statistical metric representing the average value of daily observations or records that satisfy predefined validity criteria.",
+    synonyms: ["filtered daily average", "qualified sample mean"],
+    collocations: ["compute the mean of", "qualified evidence", "daily aggregation"],
+    morphology: "mean（统计学：算术平均值）+ qualified（符合筛选标准的）+ daily evidence（每日观测证据/数据记录）。",
+    dailyEn: "Instead of using raw noisy logs, our dashboard plots the mean of qualified daily evidence.",
+    dailyCn: "我们的仪表盘没有使用充满噪点的原始日志，而是绘制了合格每日证据的平均值。",
+    ieltsEn: "To mitigate sampling bias from incomplete logs, the estimator computes the mean of qualified daily evidence across active partitions.",
+    ieltsCn: "为了减轻不完整日志带来的采样偏差，估计器跨活跃分区计算合格每日证据的均值。"
+  },
+  {
+    id: "w3-84",
+    date: "2026-09-15",
+    lemma: "dataset",
+    raw: "dataset",
+    pos: "n.",
+    phonetic: "/ˈdeɪtəset/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "数据集；语料数据集合",
+    en: "A structured collection of related sets of data or records used for empirical analysis, benchmarking, or machine learning.",
+    synonyms: ["corpus", "data collection", "benchmark suite"],
+    collocations: ["benchmark dataset", "curated dataset", "training and validation datasets"],
+    morphology: "data（数据）+ set（集合）合成词。",
+    dailyEn: "We need to clean the dataset before feeding it into the regression model.",
+    dailyCn: "在把数据集输入回归模型之前，我们需要先对其进行清洗。",
+    ieltsEn: "Evaluating generalization requires testing the trained model on an out-of-distribution dataset.",
+    ieltsCn: "评估泛化能力需要在分布外（OOD）数据集上对训练好的模型进行测试。"
+  },
+  {
+    id: "w3-85",
+    date: "2026-09-15",
+    lemma: "internal",
+    raw: "internal",
+    pos: "adj.",
+    phonetic: "/ɪnˈtɜːnl/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "内部的；体系内的；【实验设计】内部效度的（Internal Validity）",
+    en: "Of or situated on the inside; existing or operating within a system, organization, or model architecture.",
+    synonyms: ["inner", "interior", "intrinsic"],
+    collocations: ["internal consistency", "internal representation", "internal validity"],
+    morphology: "inter-（在内）+ -nal（形容词后缀）。原文中与下一行 consistency 紧邻构成高频搭配 internal consistency（内部一致性）。",
+    dailyEn: "This document is for internal use only and shouldn't be shared with external clients.",
+    dailyCn: "本文件仅供内部使用，不得与外部客户共享。",
+    ieltsEn: "Probing classifiers are frequently employed to inspect the internal representations learned by deep neural networks.",
+    ieltsCn: "探针分类器常被用来检查深度神经网络所学习到的内部表征。"
+  },
+  {
+    id: "w3-86",
+    date: "2026-09-15",
+    lemma: "consistency",
+    raw: "consistency",
+    pos: "n.",
+    phonetic: "/kənˈsɪstənsi/",
+    domain: "CS & 系统",
+    freq: 3,
+    cn: "①【分布式/数据库】一致性（如强一致性、最终一致性）；② 前后连贯性 / 稳定性",
+    en: "Conformity in the application of something; in distributed systems, the guarantee that all nodes see the same data at the same time.",
+    synonyms: ["uniformity", "coherence", "stability"],
+    collocations: ["internal consistency", "eventual consistency", "sequential consistency"],
+    morphology: "con-（共同）+ sist（站立）+ -ency。本周在 9月15日 与 9月16日（2次）共高频出现 3 次！",
+    dailyEn: "When learning to code, daily consistency matters much more than occasional all-nighters.",
+    dailyCn: "学习编程时，每天持之以恒的连贯性远比偶尔通宵突击重要得多。",
+    ieltsEn: "Strict serializability guarantees strong data consistency across replicated storage nodes at the expense of higher coordination overhead.",
+    ieltsCn: "严格可串行化以更高的协调开销为代价，保证了跨副本存储节点的强数据一致性。"
+  },
+  {
+    id: "w3-87",
+    date: "2026-09-15",
+    lemma: "flat structured executor",
+    raw: "Flat Structured Executor",
+    pos: "n. phr.",
+    phonetic: "/flæt ˈstrʌktʃəd ɪɡˈzekjʊtə(r)/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "扁平化结构执行器（消除深层嵌套调用开销、采用扁平布局的执行引擎）",
+    en: "An execution engine architecture that organizes operators or tasks in a non-hierarchical, flattened layout to reduce dispatch and indirection overhead.",
+    synonyms: ["flattened execution engine", "non-nested runtime"],
+    collocations: ["flat structured executor", "query executor", "vectorized executor"],
+    morphology: "flat（扁平的，无深层嵌套的）+ structured（结构化的）+ executor（执行器）。",
+    dailyEn: "Switching from a deeply nested tree interpreter to a flat structured executor simplified our debugging.",
+    dailyCn: "从深度嵌套的树形解释器切换到扁平化结构执行器，简化了我们的调试工作。",
+    ieltsEn: "By eliminating virtual function call indirection, the flat structured executor achieves superior instruction-cache locality.",
+    ieltsCn: "通过消除虚函数调用的间接寻址，扁平化结构执行器实现了卓越的指令缓存局部性。"
+  },
+  {
+    id: "w3-88",
+    date: "2026-09-15",
+    lemma: "dataframe",
+    raw: "Dataframe",
+    pos: "n.",
+    phonetic: "/ˈdeɪtəfreɪm/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "【数据科学】数据框（如 Pandas / Polars / R 中按行列组织的二维表格数据结构）",
+    en: "A two-dimensional, size-mutable, potentially heterogeneous tabular data structure with labeled axes (rows and columns).",
+    synonyms: ["tabular data structure", "relational table"],
+    collocations: ["in-memory dataframe", "columnar dataframe", "dataframe manipulation"],
+    morphology: "data（数据）+ frame（框架/表框）。",
+    dailyEn: "You can load the CSV file directly into a Pandas dataframe with a single line of Python.",
+    dailyCn: "你只需一行 Python 代码就能把 CSV 文件直接加载到 Pandas 数据框中。",
+    ieltsEn: "Columnar dataframe engines leverage SIMD instructions to accelerate analytical scans over hundreds of millions of rows.",
+    ieltsCn: "列式数据框引擎利用 SIMD 指令来加速对数亿行数据的分析扫描。"
+  },
+  {
+    id: "w3-89",
+    date: "2026-09-15",
+    lemma: "conservation",
+    raw: "Conservation",
+    pos: "n.",
+    phonetic: "/ˌkɒnsəˈveɪʃn/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "①【物理/系统】守恒（如能量守恒、流量/工作量守恒定律）；② 自然资源保护 / 节约",
+    en: "Preservation or restoration of the natural environment; in physics and queueing theory, the principle that a certain property remains constant.",
+    synonyms: ["preservation", "invariance", "saving"],
+    collocations: ["conservation law", "work conservation", "energy conservation"],
+    morphology: "con-（共同/完全）+ serv（保持/守护）+ -ation。在排队论与系统调度中常指 Work Conservation（工作守恒：只要有任务就不让处理器空转）。",
+    dailyEn: "Wildlife conservation projects help protect endangered species from habitat loss.",
+    dailyCn: "野生动物保护项目有助于保护濒危物种免受栖息地丧失的威胁。",
+    ieltsEn: "Strict adherence to flow conservation constraints ensures that no data packets are silently dropped across intermediate routing hops.",
+    ieltsCn: "严格遵守流量守恒约束，可确保数据包在中间路由跳点传输时不会被静默丢弃。"
+  },
+  {
+    id: "w3-90",
+    date: "2026-09-15",
+    lemma: "boundary",
+    raw: "boundary",
+    pos: "n.",
+    phonetic: "/ˈbaʊndri/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "边界；分界线；【CS】决策边界 / 内存对齐边界 / 区间边界",
+    en: "A line or threshold that marks the limits of an area, partition, memory page, or classification region.",
+    synonyms: ["border", "limit", "frontier"],
+    collocations: ["decision boundary", "partition boundary", "page boundary alignment"],
+    morphology: "bound（界限）+ -ary（名词后缀）",
+    dailyEn: "Setting clear boundary lines between work and rest is essential when working from home.",
+    dailyCn: "居家办公时，在工作和休息之间划定清晰的界限至关重要。",
+    ieltsEn: "Aligning data structures to 64-byte cache-line boundaries prevents false sharing across concurrent processor cores.",
+    ieltsCn: "将数据结构对齐到 64 字节缓存行边界，可以防止并发处理器核心之间发生伪共享。"
+  },
+  {
+    id: "w3-91",
+    date: "2026-09-15",
+    lemma: "lookup",
+    raw: "lookup",
+    pos: "n.",
+    phonetic: "/ˈlʊkʌp/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "【CS】查找；检索查询操作（如哈希表查找、索引查找、查表法）",
+    en: "The systematic process of searching for and retrieving a specific value from a table, index, cache, or dictionary.",
+    synonyms: ["retrieval", "index search", "query"],
+    collocations: ["lookup table (LUT)", "hash lookup", "constant-time lookup"],
+    morphology: "由动词短语 look up 合成的计算机专有名词。",
+    dailyEn: "Using a lookup table is much faster than recalculating trigonometric functions every frame.",
+    dailyCn: "使用查找表（查表法）比每一帧重新计算三角函数要快得多。",
+    ieltsEn: "Replacing binary tree traversal with a direct array lookup reduces memory indirection overhead.",
+    ieltsCn: "用直接数组查找替代二叉树遍历，降低了内存间接寻址的开销。"
+  },
+  {
+    id: "w3-92",
+    date: "2026-09-15",
+    lemma: "entry",
+    raw: "entries",
+    pos: "n.",
+    phonetic: "/ˈentri/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "①【数据库/缓存】条目 / 记录项（复数 entries）；② 进入；参赛作品",
+    en: "An item written or printed in a diary, list, database table, page table, or cache directory.",
+    synonyms: ["record", "item", "row"],
+    collocations: ["cache entries", "log entries", "duplicate entries"],
+    morphology: "enter（进入/录入）+ -y（名词后缀），复数形式为 entries。",
+    dailyEn: "There are over ten thousand dictionary entries in this terminology database.",
+    dailyCn: "这个术语数据库里有一万多个词典词条。",
+    ieltsEn: "Stale cache entries are periodically evicted to reclaim memory space for newly accessed hot keys.",
+    ieltsCn: "过期的缓存条目会被定期驱逐淘汰，以便为新访问的热点键回收内存空间。"
+  },
+  {
+    id: "w3-93",
+    date: "2026-09-15",
+    lemma: "regime",
+    raw: "regime",
+    pos: "n.",
+    phonetic: "/reɪˈʒiːm/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "①【科研/物理/ML】运行区间 / 状态机制（如低延迟区间、过参数化机制）；② 政权；管理体制",
+    en: "In science and engineering, a characteristic set of operating conditions, parameters, or dynamic behaviors; a system of governance.",
+    synonyms: ["operating region", "mode", "paradigm"],
+    collocations: ["high-concurrency regime", "low-latency regime", "training regime"],
+    morphology: "源自法语 régime（管理方式/状态体系）。在 CS 与机器学习论文中极常用来指“某种特定负载或参数规模下的运行状态区间”。",
+    dailyEn: "The athlete followed a strict daily training regime ahead of the marathon.",
+    dailyCn: "这位运动员在马拉松赛前遵循着严格的日常训练计划。",
+    ieltsEn: "While the baseline algorithm performs adequately on small inputs, its throughput collapses in the high-contention regime.",
+    ieltsCn: "虽然基线算法在小规模输入下表现尚可，但在高竞争负载区间（high-contention regime）下其吞吐量会急剧崩溃。"
+  },
+  {
+    id: "w3-94",
+    date: "2026-09-15",
+    lemma: "off-calendar",
+    raw: "Off-calendar",
+    pos: "adj.",
+    phonetic: "/ˌɒf ˈkælɪndə(r)/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "非标准日历周期的；自然日历之外的（指按滑动天数/事件触发而非按固定自然月/周对齐的周期）",
+    en: "Occurring outside standard calendar boundaries (such as arbitrary rolling intervals or non-standard fiscal/scheduling cycles).",
+    synonyms: ["non-standard cycle", "rolling-interval", "asynchronous schedule"],
+    collocations: ["off-calendar window", "off-calendar aggregation", "off-calendar release"],
+    morphology: "off-（脱离/偏离）+ calendar（日历周期）。",
+    dailyEn: "Several tech companies operate on an off-calendar fiscal year that ends in January.",
+    dailyCn: "好几家科技公司采用非自然年对齐的财年制度，于每年一月份结束。",
+    ieltsEn: "Supporting off-calendar sliding windows requires fine-grained timestamp indexing rather than coarse monthly pre-aggregations.",
+    ieltsCn: "支持非标准日历对齐的滑动窗口需要细粒度的时间戳索引，而非粗粒度的按月预聚合。"
+  },
+  {
+    id: "w3-95",
+    date: "2026-09-15",
+    lemma: "extension",
+    raw: "Extension",
+    pos: "n.",
+    phonetic: "/ɪkˈstenʃn/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "①【CS】扩展插件 / 指令集扩展 / 文件扩展名；②（截止日期的）延期；延伸",
+    en: "A part that is added to something to enlarge or prolong it; a software plugin, instruction set addition, or deadline postponement.",
+    synonyms: ["add-on", "expansion", "prolongation"],
+    collocations: ["file extension", "VS Code extension", "grant a deadline extension"],
+    morphology: "ex-（向外）+ tens（伸展）+ -ion",
+    dailyEn: "Installing the Live Server extension in VS Code makes previewing webpages effortless.",
+    dailyCn: "在 VS Code 中安装 Live Server 扩展插件，让预览网页变得毫不费力。",
+    ieltsEn: "Vector instruction set extensions enable modern CPUs to process multiple 64-bit integers simultaneously.",
+    ieltsCn: "向量指令集扩展使现代 CPU 能够同时处理多个 64 位整数。"
+  },
+  {
+    id: "w3-96",
+    date: "2026-09-15",
+    lemma: "substantially",
+    raw: "Substantially",
+    pos: "adv.",
+    phonetic: "/səbˈstænʃəli/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "大幅度地；显著地；实质上地（雅思写作与学术论文替代 very much / a lot 的黄金副词）",
+    en: "To a great or significant extent; in essence or substance.",
+    synonyms: ["significantly", "considerably", "markedly"],
+    collocations: ["improve substantially", "substantially reduce overhead", "substantially different"],
+    morphology: "substance（实质/主体）+ -ial + -ly",
+    dailyEn: "Living costs in central London are substantially higher than in smaller university towns.",
+    dailyCn: "伦敦市中心的生活成本比小型大学城要高得多。",
+    ieltsEn: "Pruning redundant execution paths substantially reduces tail latency without compromising classification accuracy.",
+    ieltsCn: "剪枝冗余的执行路径在不牺牲分类准确率的前提下，大幅降低了尾延迟。"
+  },
+  {
+    id: "w3-97",
+    date: "2026-09-15",
+    lemma: "decomposition",
+    raw: "Decomposition / decomposition",
+    pos: "n.",
+    phonetic: "/ˌdiːkɒmpəˈzɪʃn/",
+    domain: "CS & 系统",
+    freq: 2,
+    cn: "【数学/CS】分解；拆解（如矩阵分解、任务/算子拆解、时间序列分解）",
+    en: "The process of breaking down a complex problem, matrix, or system into simpler, modular constituent parts.",
+    synonyms: ["factorization", "breakdown", "partitioning"],
+    collocations: ["matrix decomposition", "task decomposition", "functional decomposition"],
+    morphology: "de-（解开/逆向）+ compose（组合）+ -ition。在 9月15日 当天词表中重复出现 2 次！",
+    dailyEn: "Task decomposition helps teams turn a huge project into manageable daily tickets.",
+    dailyCn: "任务拆解有助于团队把一个庞大的项目转化为易于管理的日常工单。",
+    ieltsEn: "Singular value decomposition is widely applied to compress high-dimensional weight matrices in neural networks.",
+    ieltsCn: "奇异值分解被广泛应用于压缩神经网络中的高维权重矩阵。"
+  },
+  {
+    id: "w3-98",
+    date: "2026-09-15",
+    lemma: "preliminary",
+    raw: "Preliminary",
+    pos: "adj. / n.",
+    phonetic: "/prɪˈlɪmɪnəri/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "初步的；预备性的；【论文章节】预备知识（Preliminaries）",
+    en: "Denoting an action or event preceding or done in preparation for something fuller or more important.",
+    synonyms: ["initial", "preparatory", "exploratory"],
+    collocations: ["preliminary experiments", "preliminary results", "section 2: preliminaries"],
+    morphology: "pre-（在……之前）+ limin（门槛/界限，源自拉丁语 limen）+ -ary → 正式迈入门槛前的预备阶段。",
+    dailyEn: "After passing the preliminary phone screening, she was invited to the final on-site interview.",
+    dailyCn: "通过初步电话筛选后，她受邀参加了最终的现场面试。",
+    ieltsEn: "Preliminary profiling indicates that over 60% of execution time is spent on datetime conversion and string parsing.",
+    ieltsCn: "初步性能分析表明，超过 60% 的执行时间耗费在日期时间转换和字符串解析上。"
+  },
+  {
+    id: "w3-99",
+    date: "2026-09-15",
+    lemma: "compression",
+    raw: "Compression / compression",
+    pos: "n.",
+    phonetic: "/kəmˈpreʃn/",
+    domain: "CS & 系统",
+    freq: 2,
+    cn: "压缩（数据无损/有损压缩、模型压缩、列存编码压缩）",
+    en: "The reduction in size of data in order to save storage space or transmission time.",
+    synonyms: ["compaction", "encoding reduction", "shrinkage"],
+    collocations: ["lossless compression", "dictionary compression", "compression ratio"],
+    morphology: "com-（一起）+ press（挤压）+ -ion。在 9月15日 与 9月16日 均高频出现！",
+    dailyEn: "Zip compression makes it much faster to email a large folder of documents.",
+    dailyCn: "Zip 压缩让通过电子邮件发送大型文档文件夹变得快得多。",
+    ieltsEn: "Lightweight integer compression schemes allow columnar databases to evaluate predicates directly on compressed data.",
+    ieltsCn: "轻量级整数压缩方案允许列式数据库直接在压缩数据上计算谓词过滤条件。"
+  },
+  {
+    id: "w3-100",
+    date: "2026-09-15",
+    lemma: "prevent",
+    raw: "Prevent",
+    pos: "v.",
+    phonetic: "/prɪˈvent/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "防止；预防；阻止……发生",
+    en: "To keep something from happening or arising; to make it impossible for someone to do something.",
+    synonyms: ["avert", "preclude", "forestall"],
+    collocations: ["prevent data corruption", "prevent A from doing B", "preventive measure"],
+    morphology: "pre-（提前）+ vent（来）→ 提前到场堵住隐患。",
+    dailyEn: "Regular backups prevent you from losing important work if your hard drive fails.",
+    dailyCn: "定期备份能防止你在硬盘损坏时丢失重要工作成果。",
+    ieltsEn: "Strict memory bounds checking is enforced at compile time to prevent buffer overflow vulnerabilities.",
+    ieltsCn: "在编译期强制执行严格的内存边界检查，以防止缓冲区溢出漏洞。"
+  },
+  {
+    id: "w3-101",
+    date: "2026-09-15",
+    lemma: "integer",
+    raw: "Integer / integer",
+    pos: "n.",
+    phonetic: "/ˈɪntɪdʒə(r)/",
+    domain: "CS & 系统",
+    freq: 2,
+    cn: "整数；整型数据类型（如 int32 / int64）",
+    en: "A whole number that is not a fraction; a fundamental numeric data type in computer programming.",
+    synonyms: ["whole number", "integral value"],
+    collocations: ["64-bit integer", "integer overflow", "integer arithmetic"],
+    morphology: "源自拉丁语 integer（完整的、未分割的，与 integrity 同源）。在 9月15日 当天重复出现 2 次。",
+    dailyEn: "Array indices in programming languages must always be integers rather than floating-point numbers.",
+    dailyCn: "编程语言中的数组下标必须始终是整数，而不能是浮点数。",
+    ieltsEn: "Converting string timestamps into 64-bit integer epochs accelerates range comparisons by an order of magnitude.",
+    ieltsCn: "将字符串时间戳转换为 64 位整数纪元时间，可将范围比较的速度提升一个数量级。"
+  },
+  {
+    id: "w3-102",
+    date: "2026-09-15",
+    lemma: "nanosecond",
+    raw: "Nanoseconds",
+    pos: "n.",
+    phonetic: "/ˈnænəʊsekənd/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "纳秒（十亿分之一秒，$10^{-9}$ 秒，CPU 指令与内存访问的核心时间量级）",
+    en: "One billionth of a second ($10^{-9}$ s), commonly used to measure CPU cycle times and main memory latency.",
+    synonyms: ["ns", "billionth of a second"],
+    collocations: ["nanosecond resolution", "tens of nanoseconds", "elapsed nanoseconds"],
+    morphology: "nano-（纳，十亿分之一）+ second（秒）。",
+    dailyEn: "Light travels roughly 30 centimeters in a single nanosecond.",
+    dailyCn: "光在短短一纳秒内大约传播 30 厘米。",
+    ieltsEn: "Fetching data from main DRAM incurs a latency of roughly 80 nanoseconds, compared to just 1 nanosecond for L1 cache.",
+    ieltsCn: "从主内存 DRAM 读取数据会产生约 80 纳秒的延迟，而一级缓存（L1 Cache）仅需 1 纳秒。"
+  },
+  {
+    id: "w3-103",
+    date: "2026-09-15",
+    lemma: "kernel",
+    raw: "Kernel",
+    pos: "n.",
+    phonetic: "/ˈkɜːnl/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "①【HPC/GPU/系统】计算内核算子（如 CUDA Kernel / 算子核函数）；② 操作系统内核；③ 核函数（SVM/数学）",
+    en: "In GPU and high-performance computing, a compiled compute routine dispatched to accelerators; or the core of an operating system.",
+    synonyms: ["compute routine", "core engine", "operator"],
+    collocations: ["compute kernel", "kernel fusion", "operating system kernel"],
+    morphology: "原义为“果仁/核心”，在高性能计算与系统论文中指最核心的底层计算函数或 OS 内核。",
+    dailyEn: "Updating the Linux kernel improved battery life and hardware compatibility on my laptop.",
+    dailyCn: "更新 Linux 内核改善了我笔记本电脑的电池续航和硬件兼容性。",
+    ieltsEn: "Fusing consecutive element-wise operations into a single GPU kernel eliminates intermediate global memory traffic.",
+    ieltsCn: "将连续的逐元素操作融合为单个 GPU 计算内核，消除了中间结果的全局显存读写流量。"
+  },
+  {
+    id: "w3-104",
+    date: "2026-09-15",
+    lemma: "datetime conversion",
+    raw: "datetime conversion",
+    pos: "n. phr.",
+    phonetic: "/ˈdeɪttaɪm kənˈvɜːʃn/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "日期时间转换（在字符串、时区、日历结构与整数时间戳之间进行的解析与转换）",
+    en: "The computational process of parsing, formatting, or transforming date and time representations across different formats or time zones.",
+    synonyms: ["timestamp parsing", "temporal type casting"],
+    collocations: ["vectorized datetime conversion", "timezone conversion", "epoch conversion"],
+    morphology: "date（日期）+ time（时间）+ conversion（转换）。",
+    dailyEn: "Handling leap years and time zones makes datetime conversion surprisingly tricky.",
+    dailyCn: "处理闰年和时区让日期时间转换变得出奇地棘手。",
+    ieltsEn: "By replacing standard library calls with integer decomposition, our vectorized datetime conversion achieves a 4x speedup.",
+    ieltsCn: "通过用整数分解替代标准库调用，我们的向量化日期时间转换实现了 4 倍的加速比。"
+  },
+  {
+    id: "w3-105",
+    date: "2026-09-15",
+    lemma: "adaptive",
+    raw: "Adaptive",
+    pos: "adj.",
+    phonetic: "/əˈdæptɪv/",
+    domain: "CS & 系统",
+    freq: 2,
+    cn: "自适应的（能根据运行时负载或数据分布动态调整策略的）",
+    en: "Characterized by the ability to dynamically adjust behavior, parameters, or routing decisions in response to changing conditions.",
+    synonyms: ["dynamic", "self-adjusting", "flexible"],
+    collocations: ["adaptive routing", "adaptive query execution", "adaptive threshold"],
+    morphology: "adapt（适应/调整）+ -ive。本周在 9月15日（Adaptive）与 9月16日（Adaptive Routing）连续出现。",
+    dailyEn: "Modern smartphones use adaptive brightness to match the lighting in your room.",
+    dailyCn: "现代智能手机使用自适应亮度来匹配你房间里的光线环境。",
+    ieltsEn: "Adaptive query execution dynamically switches join algorithms at runtime when cardinality estimates prove inaccurate.",
+    ieltsCn: "当基数估计被证明不准确时，自适应查询执行会在运行时动态切换连接算法。"
+  },
+  {
+    id: "w3-106",
+    date: "2026-09-15",
+    lemma: "reproducibility audit",
+    raw: "reproducibility audit",
+    pos: "n. phr.",
+    phonetic: "/ˌriːprəˌdjuːsəˈbɪləti ˈɔːdɪt/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "可复现性审查 / 复现性审计（核验实验代码、数据与结果能否被独立一致复现的核查流程）",
+    en: "A systematic verification process ensuring that published experimental results can be independently regenerated using the provided code and data.",
+    synonyms: ["artifact evaluation", "replication check", "verification audit"],
+    collocations: ["pass a reproducibility audit", "artifact reproducibility", "reproducibility checklist"],
+    morphology: "reproduce（复现/再生产）+ -ibility + audit（审计/审查）。计算机顶会 Artifact Evaluation 核心概念。",
+    dailyEn: "Before submitting the paper, we ran a full reproducibility audit on a clean server.",
+    dailyCn: "在提交论文之前，我们在全新服务器上运行了一次完整的可复现性自查。",
+    ieltsEn: "Fixing random seeds and recording exact hardware provenance are mandatory to pass a rigorous reproducibility audit.",
+    ieltsCn: "固定随机种子并记录精确的硬件溯源信息，是通过严格可复现性审查的必要条件。"
+  },
+  {
+    id: "w3-107",
+    date: "2026-09-15",
+    lemma: "exhibit",
+    raw: "exhibits",
+    pos: "v. / n.",
+    phonetic: "/ɪɡˈzɪbɪt/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "表现出；展现出（某种特性、趋势或性能现象）；展览品",
+    en: "To clearly manifest, display, or demonstrate a particular quality, behavior, or statistical pattern.",
+    synonyms: ["demonstrate", "display", "manifest"],
+    collocations: ["exhibit linear scalability", "exhibit high variance", "exhibit similar behavior"],
+    morphology: "ex-（向外）+ hibit（拿/持，源自拉丁语 habere）→ 拿出来展示。论文描述实验图表曲线时的黄金动词！",
+    dailyEn: "The new museum exhibit attracts thousands of visitors every weekend.",
+    dailyCn: "博物馆的新展览每个周末都吸引成千上万的游客。",
+    ieltsEn: "As illustrated in Figure 4, the proposed algorithm exhibits near-linear scalability up to 64 processor cores.",
+    ieltsCn: "如图 4 所示，所提出的算法在扩展至 64 个处理器核心时表现出了近似线性的可扩展性。"
+  },
+  {
+    id: "w3-108",
+    date: "2026-09-15",
+    lemma: "calibration",
+    raw: "calibration",
+    pos: "n.",
+    phonetic: "/ˌkælɪˈbreɪʃn/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "校准；标定（对硬件参数、成本模型阈值或概率置信度进行精确调校）",
+    en: "The action or process of aligning, tuning, or adjusting experimental parameters, thresholds, or model probabilities against a known standard.",
+    synonyms: ["tuning", "adjustment", "standardization"],
+    collocations: ["threshold calibration", "model calibration", "calibration phase"],
+    morphology: "caliber（口径/刻度标准）+ -ation",
+    dailyEn: "Professional photographers perform monitor color calibration every month.",
+    dailyCn: "专业摄影师每个月都会进行显示器色彩校准。",
+    ieltsEn: "An offline calibration phase profiles hardware bandwidth to determine the optimal crossover threshold automatically.",
+    ieltsCn: "离线校准阶段通过对硬件带宽进行剖析，自动确定最优的性能交叉点阈值。"
+  },
+  {
+    id: "w3-109",
+    date: "2026-09-15",
+    lemma: "threshold",
+    raw: "threshold",
+    pos: "n.",
+    phonetic: "/ˈθreʃhəʊld/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "阈值；临界点；准入门槛",
+    en: "A magnitude, value, or boundary that must be exceeded for a certain reaction, phenomenon, or policy switch to occur.",
+    synonyms: ["cutoff", "critical point", "limit"],
+    collocations: ["exceed the threshold", "crossover threshold", "latency threshold"],
+    morphology: "源自古英语“门槛（thresh + hold）”，引申为触发状态切换的“临界阈值”。",
+    dailyEn: "Everyone has a different threshold for spicy food.",
+    dailyCn: "每个人对辛辣食物的承受阈值都不一样。",
+    ieltsEn: "Whenever the queue length exceeds a predefined threshold, incoming requests are dynamically routed to backup instances.",
+    ieltsCn: "每当队列长度超过预定义阈值时，新到达的请求就会被动态路由到备用实例。"
+  },
+  {
+    id: "w3-110",
+    date: "2026-09-15",
+    lemma: "practical",
+    raw: "practical",
+    pos: "adj.",
+    phonetic: "/ˈpræktɪkl/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "实际的；实用的；工程实践中可落地的（对比纯理论渐近性质）",
+    en: "Of or concerned with the actual doing or use of something rather than with theory and idealized assumptions.",
+    synonyms: ["pragmatic", "real-world", "applied"],
+    collocations: ["practical crossover", "practical significance", "for all practical purposes"],
+    morphology: "practic（实践）+ -al。原文中与下一行 crossover 构成搭配 practical crossover（实际工程中的性能交叉点）。",
+    dailyEn: "Cycling is the most practical way to get around Cambridge.",
+    dailyCn: "骑自行车是在剑桥出行的最实用方式。",
+    ieltsEn: "Despite its superior asymptotic complexity, the algorithm has limited practical utility due to its massive constant overhead.",
+    ieltsCn: "尽管该算法具有优越的渐近复杂度，但由于其庞大的常数开销，其实际工程效用十分有限。"
+  },
+  {
+    id: "w3-111",
+    date: "2026-09-15",
+    lemma: "candidate probe",
+    raw: "candidate probe",
+    pos: "n. phr.",
+    phonetic: "/ˈkændɪdət prəʊb/",
+    domain: "CS & 系统",
+    freq: 2,
+    cn: "候选探测 / 候选探针（在自适应调度或哈希查找中对候选方案进行轻量级试探测试）",
+    en: "A lightweight exploratory check or sample test performed on a candidate configuration or hash slot before committing to full execution.",
+    synonyms: ["exploratory trial", "trial lookup", "sampling probe"],
+    collocations: ["lightweight candidate probe", "probe overhead", "linear probing"],
+    morphology: "candidate（候选者）+ probe（探针/探测，在 9月16日 亦单独出现）。",
+    dailyEn: "The router sends a quick candidate probe to check which server responds fastest.",
+    dailyCn: "路由器发送一个快速的候选探测包，以检查哪台服务器响应最快。",
+    ieltsEn: "Executing a lightweight candidate probe over a 1% data sample accurately predicts the optimal execution policy.",
+    ieltsCn: "在 1% 的数据样本上执行轻量级候选探测，即可准确预测最优的执行策略。"
+  },
+  {
+    id: "w3-112",
+    date: "2026-09-15",
+    lemma: "workload",
+    raw: "workload",
+    pos: "n.",
+    phonetic: "/ˈwɜːkləʊd/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "①【系统/数据库】工作负载（系统所承受的计算任务特征与压力集合）；② 工作量",
+    en: "The amount and type of computational processing that a system is given to do at a particular time; or personal work burden.",
+    synonyms: ["task load", "traffic profile", "burden"],
+    collocations: ["read-heavy workload", "analytical workload", "skewed workload"],
+    morphology: "work（工作）+ load（载荷/负载）",
+    dailyEn: "Sharing the coding workload evenly helped our group finish the project ahead of time.",
+    dailyCn: "平均分担编程工作量帮助我们小组提前完成了项目。",
+    ieltsEn: "Real-world production workloads often exhibit severe temporal skew and bursty arrival patterns.",
+    ieltsCn: "真实生产环境的工作负载通常表现出显著的时间偏斜和突发性到达模式。"
+  },
+  {
+    id: "w3-113",
+    date: "2026-09-15",
+    lemma: "exclusive",
+    raw: "exclusive / Exclusively",
+    pos: "adj. / adv.",
+    phonetic: "/ɪkˈskluːsɪv/",
+    domain: "CS & 系统",
+    freq: 2,
+    cn: "①【CS】排他的 / 独占的（如独占锁 Exclusive Lock、左闭右开区间右端不包含）；② 仅限特定对象的（副词 exclusively：仅仅、专门地）",
+    en: "Excluding or not admitting other things; restricted to the person, group, or thread concerned.",
+    synonyms: ["sole", "dedicated", "mutually exclusive"],
+    collocations: ["mutually exclusive", "exclusive lock", "rely exclusively on"],
+    morphology: "ex-（出）+ clus（关闭）+ -ive。在 9月15日 当天同时收录了形容词 exclusive 与副词 Exclusively。",
+    dailyEn: "This study room is for the exclusive use of postgraduate students.",
+    dailyCn: "这间自习室供研究生专用。",
+    ieltsEn: "Acquiring an exclusive write lock prevents concurrent threads from reading partially updated state.",
+    ieltsCn: "获取排他写锁可防止并发线程读取到仅更新了一半的中间状态。"
+  },
+  {
+    id: "w3-114",
+    date: "2026-09-15",
+    lemma: "sanity",
+    raw: "sanity",
+    pos: "n.",
+    phonetic: "/ˈsænəti/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "①【CS/工程】合理性基本校验（Sanity Check：快速排查明显低级错误的健全性检查）；② 心智健全 / 理智",
+    en: "In software engineering and research, a quick basic test ('sanity check') to verify that a calculation or system output is reasonable.",
+    synonyms: ["soundness", "reasonableness", "rationality"],
+    collocations: ["sanity check", "pass a sanity test", "keep one's sanity"],
+    morphology: "源自拉丁语 sanitas（健康/健全）。工程与科研极高频搭配：Sanity Check（基本健全性检查）。",
+    dailyEn: "Let's do a quick sanity check on the numbers before we send the slide deck to our supervisor.",
+    dailyCn: "在把演示文稿发给导师之前，我们先对这些数字做个快速的合理性检查吧。",
+    ieltsEn: "As an automated sanity check, the test harness verifies that row counts remain invariant before and after partitioning.",
+    ieltsCn: "作为一项自动化健全性检查（sanity check），测试框架会核验分区前后的总行数是否保持不变。"
+  },
+  {
+    id: "w3-115",
+    date: "2026-09-15",
+    lemma: "plenary",
+    raw: "Plenary",
+    pos: "adj. / n.",
+    phonetic: "/ˈpliːnəri/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "【学术会议】全体大会的；全员出席的大会报告（Plenary Session / Keynote）",
+    en: "To be attended by all participants at a conference or assembly, who otherwise meet in smaller parallel groups.",
+    synonyms: ["general assembly", "full-attendance", "keynote"],
+    collocations: ["plenary session", "plenary speaker", "plenary lecture"],
+    morphology: "plen-（满/完全，同 plenty）+ -ary → 全体参会人员悉数到场的会议。",
+    dailyEn: "All parallel workshops pause at 10 AM so everyone can attend the plenary talk in the main hall.",
+    dailyCn: "所有并行分论坛在上午 10 点暂停，以便所有人都能去主会场听全体大会报告。",
+    ieltsEn: "During the opening plenary session, the keynote speaker outlined the ethical challenges of autonomous decision systems.",
+    ieltsCn: "在开幕全体大会上，主旨报告人概述了自主决策系统面临的伦理挑战。"
+  },
+  {
+    id: "w3-116",
+    date: "2026-09-15",
+    lemma: "geomean",
+    raw: "Geomean",
+    pos: "n.",
+    phonetic: "/ˈdʒiːəʊmiːn/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "【统计学/体系结构】几何平均数（Geometric Mean，汇总多个加速比与归一化性能指标的黄金标准）",
+    en: "Short for geometric mean ($\sqrt[n]{x_1 x_2 \dots x_n}$), the standard statistical metric for averaging normalized speedup ratios across benchmarks.",
+    synonyms: ["geometric mean", "multiplicative average"],
+    collocations: ["geomean speedup", "report the geomean across benchmarks"],
+    morphology: "geo(metric)（几何的）+ mean（平均数）缩略词。体系结构与系统论文汇报总体加速比时必用 Geomean 而非算术平均！",
+    dailyEn: "When averaging speedup ratios, always use the geomean so a single outlier doesn't skew the result.",
+    dailyCn: "在计算加速比的平均值时，务必要使用几何平均数（geomean），以免单个极端异常值扭曲整体结果。",
+    ieltsEn: "Across all twenty benchmark workloads, our compiler optimization achieves a geomean speedup of 1.42x.",
+    ieltsCn: "在全部二十个基准工作负载上，我们的编译器优化实现了 1.42 倍的几何平均加速比。"
+  },
+  {
+    id: "w3-117",
+    date: "2026-09-15",
+    lemma: "occasional",
+    raw: "Occasional",
+    pos: "adj.",
+    phonetic: "/əˈkeɪʒənl/",
+    domain: "英式日常",
+    freq: 1,
+    cn: "偶尔的；偶发的；非经常性的",
+    en: "Occurring, appearing, or done infrequently and irregularly.",
+    synonyms: ["sporadic", "infrequent", "intermittent"],
+    collocations: ["occasional jitter", "occasional spike", "on an occasional basis"],
+    morphology: "occasion（场合/时机）+ -al",
+    dailyEn: "Apart from an occasional rainy afternoon, the weather during our trip was lovely.",
+    dailyCn: "除了偶尔有一两个下雨的下午，我们旅行期间的天气非常好。",
+    ieltsEn: "While steady-state latency remains low, background compaction triggers occasional latency spikes.",
+    ieltsCn: "虽然稳态延迟保持在较低水平，但后台数据压缩会触发偶发的延迟尖峰。"
+  },
+  {
+    id: "w3-118",
+    date: "2026-09-15",
+    lemma: "bare",
+    raw: "Bare",
+    pos: "adj.",
+    phonetic: "/beə(r)/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "①【CS】裸机的 / 无额外封装开销的（如 Bare-metal 裸金属服务器、裸指针）；② 仅够基本的；赤裸的",
+    en: "Without addition, wrapper, or abstraction layer (e.g., bare-metal hardware); basic and simple.",
+    synonyms: ["unwrapped", "raw", "minimal"],
+    collocations: ["bare-metal server", "bare minimum", "bare execution loop"],
+    morphology: "古英语 bær（无遮蔽的）。在系统性能分析中常指“去掉一切框架封装开销的裸算子/裸机（bare）基线”。",
+    dailyEn: "We packed only the bare essentials for our weekend hiking trip.",
+    dailyCn: "我们周末徒步旅行只带了最基本的必需品。",
+    ieltsEn: "Deploying containers directly on bare-metal servers eliminates hypervisor virtualization overhead.",
+    ieltsCn: "将容器直接部署在裸金属服务器上，消除了虚拟机监控程序的虚拟化开销。"
+  },
+  {
+    id: "w3-119",
+    date: "2026-09-15",
+    lemma: "transition",
+    raw: "Transition",
+    pos: "n. / v.",
+    phonetic: "/trænˈzɪʃn/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "过渡；状态转换（State Transition）；转变阶段",
+    en: "The process or a period of changing from one state, regime, or condition to another.",
+    synonyms: ["shift", "switchover", "handover"],
+    collocations: ["state transition", "phase transition", "smooth transition"],
+    morphology: "trans-（跨越/转变）+ it（走）+ -ion",
+    dailyEn: "The university offers orientation workshops to help freshmen make a smooth transition to college life.",
+    dailyCn: "大学提供迎新工作坊，帮助大一新生顺利过渡到大学生活。",
+    ieltsEn: "Hysteresis margins are incorporated into the controller to prevent rapid oscillation during regime transitions.",
+    ieltsCn: "控制器中引入了迟滞裕度，以防止在运行区间转换（regime transitions）期间发生高频振荡。"
+  },
+  {
+    id: "w3-120",
+    date: "2026-09-15",
+    lemma: "aggregate",
+    raw: "Aggregate",
+    pos: "v. / adj. / n.",
+    phonetic: "/ˈæɡrɪɡeɪt/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "① v. 聚合 / 汇总（读 /ˈæɡrɪɡeɪt/）；② adj./n. 总计的 / 聚合总体（读 /ˈæɡrɪɡət/）",
+    en: "To combine or group multiple individual elements or metrics into a single consolidated whole.",
+    synonyms: ["consolidate", "combine", "amass"],
+    collocations: ["in the aggregate", "aggregate throughput", "aggregate daily metrics"],
+    morphology: "ag- + greg（群）+ -ate。9月13日 已收录其名词形式 Aggregation。",
+    dailyEn: "The app aggregates flight prices from ratusan airlines in seconds.",
+    dailyCn: "这款应用能在几秒钟内汇总数百家航空公司的机票价格。",
+    ieltsEn: "When local statistics are aggregated across distributed worker nodes, communication bandwidth becomes the primary bottleneck.",
+    ieltsCn: "当跨分布式工作节点汇总局部统计信息时，通信带宽成为了主要瓶颈。"
+  },
+  {
+    id: "w3-121",
+    date: "2026-09-15",
+    lemma: "supplementary",
+    raw: "supplementary",
+    pos: "adj.",
+    phonetic: "/ˌsʌplɪˈmentri/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "补充的；附带的；【学术论文】补充材料/附录（Supplementary Material）",
+    en: "Provided in addition to what is already present or available to complete or enhance it.",
+    synonyms: ["additional", "ancillary", "complementary"],
+    collocations: ["supplementary material", "supplementary appendix", "supplementary experiments"],
+    morphology: "supplement（增补物）+ -ary",
+    dailyEn: "Full mathematical proofs and hyperparameter tables are included in the supplementary material.",
+    dailyCn: "完整的数学证明和超参数表格均包含在论文补充材料中。",
+    ieltsEn: "Due to page constraints, detailed per-query latency breakdowns are deferred to the supplementary appendix.",
+    ieltsCn: "受篇幅限制，详细的逐查询延迟拆解分析被移至补充附录中。"
+  },
+  {
+    id: "w3-122",
+    date: "2026-09-15",
+    lemma: "training optimal interval",
+    raw: "Training optimal interval",
+    pos: "n. phr.",
+    phonetic: "/ˈtreɪnɪŋ ˈɒptɪməl ˈɪntəvl/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "训练最优区间（离线训练或校准阶段所确定的最佳超参数/切分区间）",
+    en: "The value range or time window determined during the training or calibration phase that yields the best objective performance.",
+    synonyms: ["calibrated optimal range", "learned interval"],
+    collocations: ["determine the optimal interval", "confidence interval", "re-training interval"],
+    morphology: "training（训练期）+ optimal（最优的）+ interval（区间/时间间隔）。",
+    dailyEn: "Once we find the training optimal interval on the validation set, we lock those thresholds for deployment.",
+    dailyCn: "一旦我们在验证集上找到训练最优区间，就会锁定这些阈值用于上线部署。",
+    ieltsEn: "Empirical results confirm that thresholds selected within the training optimal interval generalize robustly to unseen test workloads.",
+    ieltsCn: "实证结果证实，在训练最优区间内选取的阈值能够稳健地泛化到未见过的测试工作负载中。"
+  },
+  {
+    id: "w3-123",
+    date: "2026-09-15",
+    lemma: "anniversary & commemorative",
+    raw: "Anniversary / Commemorative",
+    pos: "n. / adj.",
+    phonetic: "/ˌænɪˈvɜːsəri/ · /kəˈmemərətɪv/",
+    domain: "英式日常",
+    freq: 1,
+    cn: "周年纪念日（Anniversary） & 纪念性的（Commemorative）",
+    en: "The date on which an event took place in a previous year; and acting as a memorial or mark of celebration for an event.",
+    synonyms: ["jubilee", "memorial", "celebratory"],
+    collocations: ["centenary anniversary", "commemorative coin/stamp", "commemorative lecture"],
+    morphology: "ann-（年）+ vers（转）→ 每年转回来的日子；com-（共同）+ memor（记忆）+ -ative → 共同铭记的。",
+    dailyEn: "The Royal Mint released a special commemorative 50p coin for the university's 100th anniversary.",
+    dailyCn: "英国皇家造币厂为该大学建校一百周年发行了一枚特别纪念版 50 便士硬币。",
+    ieltsEn: "To mark its fiftieth anniversary, the scientific society published a commemorative volume reviewing landmark discoveries.",
+    ieltsCn: "为庆祝成立五十周年，该科学学会出版了一部回顾里程碑式发现的纪念文集。"
+  },
+  {
+    id: "w3-124",
+    date: "2026-09-15",
+    lemma: "proofread",
+    raw: "Proofread / Registration / Upon / Society",
+    pos: "v.",
+    phonetic: "/ˈpruːfriːd/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "校对；审阅订正（文稿中的拼写、语法与排版错误）",
+    en: "To read written or printed material and mark any errors in spelling, grammar, or formatting for correction.",
+    synonyms: ["copy-edit", "vet", "review"],
+    collocations: ["proofread a manuscript", "carefully proofread upon completion", "society registration"],
+    morphology: "proof（校样）+ read（阅读）。（注：已同步覆盖 9月15日 末尾的常用基础词 Registration 注册、Upon 一……就、Society 学会/社团）。",
+    dailyEn: "Upon completing your society registration form, please proofread your email address carefully.",
+    dailyCn: "填写完社团注册表后，请仔细校对你的电子邮箱地址。",
+    ieltsEn: "Authors are strongly advised to proofread the final manuscript thoroughly prior to submission to the academic society.",
+    ieltsCn: "强烈建议作者在向学术学会提交论文之前，对最终手稿进行彻底的校对。"
+  },
+  // ==================== 2026年9月16日（剩余全部补齐，整周100%收官） ====================
+  {
+    id: "w3-125",
+    date: "2026-09-16",
+    lemma: "initiative",
+    raw: "Initiatives",
+    pos: "n.",
+    phonetic: "/ɪˈnɪʃətɪv/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "① 倡议；新举措 / 专项计划（常作复数 Initiatives）；② 主动性",
+    en: "An act or strategy intended to resolve a difficulty or improve a situation; the ability to assess and initiate things independently.",
+    synonyms: ["programme", "enterprise", "undertaking"],
+    collocations: ["launch an initiative", "campus mental health initiatives", "take the initiative"],
+    morphology: "init-（开始，同 initial）+ -iative → 率先发起的行动或倡议。",
+    dailyEn: "The university launched several green initiatives to reduce plastic waste on campus.",
+    dailyCn: "大学推出了好几项绿色环保举措，以减少校园内的塑料垃圾。",
+    ieltsEn: "Government-backed research initiatives play a pivotal role in accelerating the commercialization of clean energy technologies.",
+    ieltsCn: "政府支持的科研专项计划在加速清洁能源技术的商业化方面发挥着关键作用。"
+  },
+  {
+    id: "w3-126",
+    date: "2026-09-16",
+    lemma: "enhance",
+    raw: "Enhance",
+    pos: "v.",
+    phonetic: "/ɪnˈhɑːns/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "增强；提升；改善（性能、质量或表现，雅思写作替代 improve 的高频词）",
+    en: "To intensify, increase, or further improve the quality, value, or extent of something.",
+    synonyms: ["augment", "boost", "elevate"],
+    collocations: ["enhance performance", "substantially enhance", "enhance readability"],
+    morphology: "en-（使……）+ hance（高，源自拉丁语 altus）→ 使水平拔高。",
+    dailyEn: "Adding a bit of lemon juice will really enhance the flavour of the fish.",
+    dailyCn: "加一点柠檬汁真的会大大提升这道鱼的风味。",
+    ieltsEn: "Incorporating hardware prefetching instructions can significantly enhance memory throughput for sequential scans.",
+    ieltsCn: "引入硬件预取指令可以显著提升顺序扫描时的内存吞吐量。"
+  },
+  {
+    id: "w3-127",
+    date: "2026-09-16",
+    lemma: "circumstance",
+    raw: "Circumstances",
+    pos: "n.",
+    phonetic: "/ˈsɜːkəmstəns/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "环境；客观情况；境况（常作复数 Circumstances）",
+    en: "A fact or condition connected with or relevant to an event or action.",
+    synonyms: ["conditions", "context", "situation"],
+    collocations: ["under no circumstances", "mitigating circumstances", "depending on the circumstances"],
+    morphology: "circum-（周围/环绕）+ stance（站立）→ 环绕在周围的客观态势。",
+    dailyEn: "If you miss an exam due to illness, you can submit a mitigating circumstances form.",
+    dailyCn: "如果你因病缺考，可以提交一份特殊情况说明表（英国高校常见申请流程）。",
+    ieltsEn: "Under no circumstances should unvalidated user input be concatenated directly into executable database queries.",
+    ieltsCn: "在任何情况下，都不应将未经校验的用户输入直接拼接到可执行的数据库查询中。"
+  },
+  {
+    id: "w3-128",
+    date: "2026-09-16",
+    lemma: "decision",
+    raw: "Decision",
+    pos: "n.",
+    phonetic: "/dɪˈsɪʒn/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "决策；决定；【CS/ML】判定（如决策树 Decision Tree、路由判定）",
+    en: "A conclusion or resolution reached after consideration; an algorithmic choice made by a scheduler or classifier.",
+    synonyms: ["determination", "choice", "resolution"],
+    collocations: ["routing decision", "decision boundary", "make an informed decision"],
+    morphology: "de-（切开/彻底）+ cis（剪断，源自拉丁语 caedere）+ -ion → 一刀斩断犹豫、做出决断。",
+    dailyEn: "Moving to a new city for postgraduate study was a big decision.",
+    dailyCn: "为了读研搬去一个新城市是一个重大的决定。",
+    ieltsEn: "Explainable AI frameworks aim to make algorithmic decision processes transparent to domain experts.",
+    ieltsCn: "可解释人工智能框架旨在使算法决策过程对领域专家透明化。"
+  },
+  {
+    id: "w3-129",
+    date: "2026-09-16",
+    lemma: "probe",
+    raw: "Probe",
+    pos: "n. / v.",
+    phonetic: "/prəʊb/",
+    domain: "CS & 系统",
+    freq: 2,
+    cn: "①【系统/数据库】探针；哈希探测（Hash Join / Hash Table 中的探测阶段）；② 深入探究",
+    en: "In computing, an exploratory lookup in a hash table or an instrumentation hook; to physically or analytically explore.",
+    synonyms: ["investigate", "test hook", "lookup trial"],
+    collocations: ["build and probe phases", "linear probing", "diagnostic probe"],
+    morphology: "源自拉丁语 probare（测试/检验，与 prove 同源）。在 9月15日（candidate probe）与 9月16日 均出现。",
+    dailyEn: "The space probe sent back high-resolution images of Jupiter's moons.",
+    dailyCn: "太空探测器传回了木星卫星的高分辨率图像。",
+    ieltsEn: "In a hash join operator, the smaller relation is used to build the hash table, while the larger relation is scanned during the probe phase.",
+    ieltsCn: "在哈希连接算子中，较小的关系表用于构建哈希表，而较大的关系表则在探测阶段（probe phase）被扫描比对。"
+  },
+  {
+    id: "w3-130",
+    date: "2026-09-16",
+    lemma: "bias",
+    raw: "Bias",
+    pos: "n. / v.",
+    phonetic: "/ˈbaɪəs/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "①【统计/ML】偏差 / 偏置项（Bias Term）；② 偏见；系统性倾向",
+    en: "A systematic distortion of a statistical result; a learnable offset parameter in neural networks; or unfair prejudice.",
+    synonyms: ["skew", "systematic error", "prejudice"],
+    collocations: ["inductive bias", "selection bias", "bias-variance tradeoff"],
+    morphology: "原指斜纹织物或草地滚球的“偏心重心”，后成为统计学与机器学习的核心术语。",
+    dailyEn: "Reading news from only one source can reinforce confirmation bias.",
+    dailyCn: "只从单一来源阅读新闻会强化确认偏见。",
+    ieltsEn: "Unrepresentative training corpora inevitably introduce demographic bias into downstream classification models.",
+    ieltsCn: "不具代表性的训练语料库不可避免地会将人口统计学偏差引入下游分类模型。"
+  },
+  {
+    id: "w3-131",
+    date: "2026-09-16",
+    lemma: "counterbalancing",
+    raw: "Counterbalancing",
+    pos: "n. / adj.",
+    phonetic: "/ˌkaʊntəˈbælənsɪŋ/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "【实验设计/系统】平衡抵消法（通过交叉轮换实验顺序来抵消顺序效应）；相互制衡的",
+    en: "In experimental design, systematically varying the order of conditions to neutralize order or carryover effects; acting as an offsetting weight.",
+    synonyms: ["offsetting", "neutralizing", "compensating"],
+    collocations: ["Latin square counterbalancing", "counterbalancing effect", "counterbalance order bias"],
+    morphology: "counter-（相反/对抗）+ balance（平衡）+ -ing",
+    dailyEn: "Good posture relies on counterbalancing the weight of your head over your spine.",
+    dailyCn: "良好的体态依赖于将头部的重量平衡分布在脊柱上方。",
+    ieltsEn: "To eliminate順序 bias in user evaluations, task presentation order was randomized with full counterbalancing across participants.",
+    ieltsCn: "为了消除用户评估中的顺序偏差，任务呈现顺序在受试者之间采用了完全平衡抵消（counterbalancing）的随机化设计。"
+  },
+  {
+    id: "w3-132",
+    date: "2026-09-16",
+    lemma: "adaptive routing",
+    raw: "Adaptive Routing",
+    pos: "n. phr.",
+    phonetic: "/əˈdæptɪv ˈruːtɪŋ/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "自适应路由（根据实时网络拥塞、算子开销或输入特征动态选择执行路径的机制）",
+    en: "A routing mechanism that dynamically selects paths or execution backends based on real-time system state, workload characteristics, or congestion.",
+    synonyms: ["dynamic path selection", "state-aware dispatch"],
+    collocations: ["adaptive routing policy", "congestion-aware adaptive routing", "dynamic routing"],
+    morphology: "adaptive（自适应的，9月15日已收录）+ routing（路由分发，英音常读 /ˈruːtɪŋ/，美音常读 /ˈraʊtɪŋ/）。",
+    dailyEn: "GPS navigation uses adaptive routing to steer you around sudden traffic jams.",
+    dailyCn: "GPS 导航使用自适应路由引导你绕开突发的交通拥堵。",
+    ieltsEn: "Our adaptive routing layer dynamically dispatches lightweight queries to CPU cores while offloading dense matrix workloads to GPUs.",
+    ieltsCn: "我们的自适应路由层将轻量级查询动态分派给 CPU 核心，同时将稠密矩阵工作负载卸载到 GPU 上执行。"
+  },
+  {
+    id: "w3-133",
+    date: "2026-09-16",
+    lemma: "unified",
+    raw: "Unified",
+    pos: "adj.",
+    phonetic: "/ˈjuːnɪfaɪd/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "统一的；一体化的（如统一内存架构 Unified Memory、统一接口框架）",
+    en: "Made or joined into a single uniform entity, architecture, or representation.",
+    synonyms: ["integrated", "consolidated", "uniform"],
+    collocations: ["unified memory architecture", "unified framework", "unified API"],
+    morphology: "uni-（单一/统一）+ fy（使……化）+ -ed",
+    dailyEn: "Apple's M-series chips use a unified memory architecture shared by the CPU and GPU.",
+    dailyCn: "苹果的 M 系列芯片采用了由 CPU 和 GPU 共享的统一内存架构。",
+    ieltsEn: "We propose a unified execution abstraction that seamlessly integrates batch analytics and real-time stream processing.",
+    ieltsCn: "我们提出了一种统一的执行抽象层，将批处理分析与实时流处理无缝集成在一起。"
+  },
+  {
+    id: "w3-134",
+    date: "2026-09-16",
+    lemma: "rotated",
+    raw: "Rotated",
+    pos: "adj. / v.",
+    phonetic: "/rəʊˈteɪtɪd/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "旋转的；轮换的（如矩阵旋转、平衡抵消实验中的分组轮换、日志轮转）",
+    en: "Turned around an axis or center point; or cycled regularly through different positions or experimental conditions.",
+    synonyms: ["cycled", "pivoted", "revolved"],
+    collocations: ["rotated bounding box", "log rotation", "rotated across groups"],
+    morphology: "rot-（轮子，源自拉丁语 rota）+ -ate + -ed",
+    dailyEn: "Security keys are automatically rotated every thirty days.",
+    dailyCn: "安全密钥每三十天自动轮换更新一次。",
+    ieltsEn: "Prompt templates are systematically rotated across evaluation runs to ensure that model rankings are invariant to prompt phrasing.",
+    ieltsCn: "提示词模板在各轮评估运行中进行系统性轮换，以确保模型排名不受提示词措辞变化的影响。"
+  },
+  {
+    id: "w3-135",
+    date: "2026-09-16",
+    lemma: "compilation",
+    raw: "compilation",
+    pos: "n.",
+    phonetic: "/ˌkɒmpɪˈleɪʃn/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "①【CS】代码编译（将高级语言或查询计划转化为底层机器码的过程）；② 汇编集 / 合辑",
+    en: "The translation of source code or query plans into executable machine code by a compiler; or a collection of items gathered together.",
+    synonyms: ["code generation", "transpilation", "anthology"],
+    collocations: ["just-in-time (JIT) compilation", "ahead-of-time compilation", "compilation overhead"],
+    morphology: "compile（编译/汇编）+ -ation",
+    dailyEn: "Enabling incremental compilation cut our C++ build times in half.",
+    dailyCn: "启用增量编译将我们的 C++ 项目构建时间缩短了一半。",
+    ieltsEn: "Just-in-time query compilation eliminates interpretation overhead by generating specialized machine code for each SQL query.",
+    ieltsCn: "即时查询编译（JIT）通过为每条 SQL 查询生成专用的机器码，消除了逐行解释执行的开销。"
+  },
+  {
+    id: "w3-136",
+    date: "2026-09-16",
+    lemma: "publication",
+    raw: "publication",
+    pos: "n.",
+    phonetic: "/ˌpʌblɪˈkeɪʃn/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "发表；出版；学术发表物（论文/期刊）",
+    en: "The preparation and issuing of a book, journal, or academic paper for public readership; a published work.",
+    synonyms: ["issuance", "published paper", "release"],
+    collocations: ["accepted for publication", "peer-reviewed publication", "publication record"],
+    morphology: "public（公众的）+ -ation",
+    dailyEn: "Congratulations on having your manuscript accepted for publication!",
+    dailyCn: "祝贺你的论文手稿被接收发表！",
+    ieltsEn: "Open-access publication models democratize scientific knowledge by removing subscription paywalls for global readers.",
+    ieltsCn: "开放获取（Open-Access）出版模式通过为全球读者消除订阅付费墙，推动了科学知识的普及。"
+  },
+  {
+    id: "w3-137",
+    date: "2026-09-16",
+    lemma: "synthesis",
+    raw: "synthesis",
+    pos: "n.",
+    phonetic: "/ˈsɪnθəsɪs/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "① 综合；文献综述提炼；②【CS】程序合成 / 语音与图像合成（Program / Speech Synthesis）",
+    en: "The combination of components or elements to form a connected whole; in CS, the automated generation of programs or signals from specifications.",
+    synonyms: ["integration", "amalgamation", "automated generation"],
+    collocations: ["program synthesis", "literature synthesis", "speech synthesis"],
+    morphology: "syn-（共同/一起）+ thesis（放置/论点）→ 放在一起融会贯通。复数形式为 syntheses /ˈsɪnθəsiːz/。",
+    dailyEn: "A good literature review is a critical synthesis of existing studies, not just a list of summaries.",
+    dailyCn: "一篇好的文献综述是对现有研究的批判性综合提炼，而不仅仅是摘要的罗列。",
+    ieltsEn: "Syntax-guided program synthesis automatically constructs provably correct bit-manipulation kernels from high-level specifications.",
+    ieltsCn: "语法制导的程序合成技术能够根据高层规约，自动构造出可证明正确的位操作计算内核。"
+  },
+  {
+    id: "w3-138",
+    date: "2026-09-16",
+    lemma: "classification accuracy",
+    raw: "classification accuracy",
+    pos: "n. phr.",
+    phonetic: "/ˌklæsɪfɪˈkeɪʃn ˈækjərəsi/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "分类准确率（分类模型预测正确的样本数占总样本数的比例）",
+    en: "The evaluation metric measuring the proportion of total predictions that a classification model identifies correctly.",
+    synonyms: ["predictive accuracy", "hit rate"],
+    collocations: ["top-1 classification accuracy", "achieve high classification accuracy", "accuracy degradation"],
+    morphology: "classification（分类）+ accuracy（准确度）。",
+    dailyEn: "When a dataset is heavily imbalanced, raw classification accuracy can be misleading.",
+    dailyCn: "当数据集严重不平衡时，单纯看原始分类准确率可能会产生误导。",
+    ieltsEn: "Quantizing weights from 16-bit floats to 8-bit integers halves memory bandwidth requirements with negligible loss in classification accuracy.",
+    ieltsCn: "将权重从 16 位浮点数敏化为 8 位整数，可在分类准确率损失微乎其微的情况下将内存带宽需求减半。"
+  },
+  {
+    id: "w3-139",
+    date: "2026-09-16",
+    lemma: "relevance",
+    raw: "relevance",
+    pos: "n.",
+    phonetic: "/ˈreləvəns/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "相关性；切题度；现实参考价值（同行评审与信息检索核心指标）",
+    en: "The quality or state of being closely connected, appropriate, or pertinent to the matter at hand.",
+    synonyms: ["pertinence", "applicability", "bearing"],
+    collocations: ["practical relevance", "relevance score", "of direct relevance to"],
+    morphology: "relevant（相关的）去 t 加 -ce",
+    dailyEn: "Search engines rank web pages based on their relevance to your query.",
+    dailyCn: "搜索引擎根据网页与你查询词的相关性来对网页进行排序。",
+    ieltsEn: "Reviewers evaluate submitted manuscripts based on their technical soundness, empirical rigor, and relevance to the conference scope.",
+    ieltsCn: "审稿人根据技术可靠性、实证严谨性以及与会议主题的相关性来评估提交的论文手稿。"
+  },
+  {
+    id: "w3-140",
+    date: "2026-09-16",
+    lemma: "novelty",
+    raw: "novelty",
+    pos: "n.",
+    phonetic: "/ˈnɒvlti/",
+    domain: "学术高频",
+    freq: 2,
+    cn: "创新性；新颖度（科研论文审稿的核心维度：Technical Novelty）；新鲜事物",
+    en: "The quality of being new, original, and previously unexplored in scientific research or design.",
+    synonyms: ["originality", "innovation", "freshness"],
+    collocations: ["technical novelty", "novelty detection", "lack sufficient novelty"],
+    morphology: "novel（新奇的/新颖的）+ -ty。在 9月16日 当天词表中连续重复出现 2 次！",
+    dailyEn: "Once the initial novelty of the new gadget wore off, he rarely used it.",
+    dailyCn: "一旦对这个新电子产品最初的新鲜感过去，他就很少再用它了。",
+    ieltsEn: "To highlight the architectural novelty of our approach, we contrast our unified executor against conventional two-stage pipelines.",
+    ieltsCn: "为了突显我们方法在架构上的创新性，我们将统一执行器与传统的两阶段流水线进行了对比。"
+  },
+  {
+    id: "w3-141",
+    date: "2026-09-16",
+    lemma: "ethics",
+    raw: "ethics",
+    pos: "n.",
+    phonetic: "/ˈeθɪks/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "伦理规范；道德准则；【科研】伦理审查与声明（Ethics Statement / IRB Approval）",
+    en: "Moral principles that govern a person's or group's behavior, especially in scientific research involving human subjects or AI deployment.",
+    synonyms: ["moral principles", "ethical guidelines", "deontology"],
+    collocations: ["research ethics approval", "AI ethics", "ethics statement"],
+    morphology: "源自希腊语 ēthos（品格/习俗）。现代计算机与社科论文必含章节：Ethics Statement。",
+    dailyEn: "Any study involving student questionnaires must first get approval from the university ethics committee.",
+    dailyCn: "任何涉及学生问卷调查的研究都必须先获得大学伦理委员会的批准。",
+    ieltsEn: "Adhering to rigorous research ethics requires anonymizing all personally identifiable information prior to dataset release.",
+    ieltsCn: "遵守严格的科研伦理规范，要求在公开数据集之前对所有个人身份识别信息进行匿名化处理。"
+  },
+  {
+    id: "w3-142",
+    date: "2026-09-16",
+    lemma: "manuscript",
+    raw: "manuscript",
+    pos: "n.",
+    phonetic: "/ˈmænjuskrɪpt/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "（待发表或审稿中的）论文手稿 / 书稿；古籍手抄本",
+    en: "An author's text or academic paper submitted for publication prior to final printing; a handwritten document.",
+    synonyms: ["draft paper", "submission", "preprint"],
+    collocations: ["submit a manuscript", "revise the manuscript", "unpublished manuscript"],
+    morphology: "manu-（手，同 manual）+ script（写）→ 手稿/论文原稿。",
+    dailyEn: "We spent the whole weekend polishing the manuscript before the submission deadline.",
+    dailyCn: "在投稿截止日期前，我们花了整个周末来打磨润色这篇论文手稿。",
+    ieltsEn: "Following constructive feedback from anonymous referees, the authors substantially revised the manuscript to include additional ablation studies.",
+    ieltsCn: "在收到匿名审稿人建设性的反馈意见后，作者对论文手稿进行了大幅修改，补充了额外的消融实验。"
+  },
+  {
+    id: "w3-143",
+    date: "2026-09-16",
+    lemma: "polish",
+    raw: "polish",
+    pos: "v. / n.",
+    phonetic: "/ˈpɒlɪʃ/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "润色；打磨（文章、代码或演讲表达）；使臻于完美",
+    en: "To improve, refine, or add the finishing touches to a piece of writing, presentation, or software interface.",
+    synonyms: ["refine", "perfect", "burnish"],
+    collocations: ["polish a manuscript", "polish up one's English", "visual polish"],
+    morphology: "源自拉丁语 polire（使光滑发亮）。注意小写 polish（润色 /ˈpɒlɪʃ/）与大写 Polish（波兰的 /ˈpəʊlɪʃ/）发音不同！",
+    dailyEn: "Could you help me polish my cover letter before I send it out?",
+    dailyCn: "在我寄出求职信之前，你能帮我润色一下吗？",
+    ieltsEn: "Iterative editing is essential to polish the prose and ensure logical coherence across all sections of a dissertation.",
+    ieltsCn: "反复修改对于润色文笔并确保学位论文各章节之间的逻辑连贯性至关重要。"
+  },
+  {
+    id: "w3-144",
+    date: "2026-09-16",
+    lemma: "conceptual",
+    raw: "conceptual",
+    pos: "adj.",
+    phonetic: "/kənˈseptʃuəl/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "概念上的；理论框架层面的（Conceptual Framework / Model）",
+    en: "Relating to or based on mental concepts and abstract principles rather than concrete implementation details.",
+    synonyms: ["theoretical", "abstract", "ideational"],
+    collocations: ["conceptual framework", "conceptual simplicity", "conceptual diagram"],
+    morphology: "concept（概念）+ -ual（形容词后缀）",
+    dailyEn: "Figure 1 provides a high-level conceptual overview of how our system works.",
+    dailyCn: "图 1 提供了我们系统工作原理的高层概念概览。",
+    ieltsEn: "Despite its conceptual simplicity, the proposed routing heuristic matches the empirical performance of complex reinforcement learning policies.",
+    ieltsCn: "尽管所提出的路由启发式方法在概念上十分简洁，但其实证性能媲美复杂的强化学习策略。"
+  },
+  {
+    id: "w3-145",
+    date: "2026-09-16",
+    lemma: "population",
+    raw: "population",
+    pos: "n.",
+    phonetic: "/ˌpɒpjuˈleɪʃn/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "①【统计学】总体 / 全集（与抽样样本 Sample 相对）；② 人口；特定群体",
+    en: "In statistics, the entire pool of items, events, or individuals from which a statistical sample is drawn; all inhabitants of a place.",
+    synonyms: ["entire universe", "demographic group", "inhabitants"],
+    collocations: ["target population", "population mean", "student population"],
+    morphology: "popul-（人民/群体）+ -ation",
+    dailyEn: "International students make up nearly a third of the university's student population.",
+    dailyCn: "国际学生占这所大学学生总数的近三分之一。",
+    ieltsEn: "Inferential statistics enable researchers to estimate true population parameters from a relatively small random sample.",
+    ieltsCn: "推论统计使研究人员能够根据相对较小的随机样本估计真实的总体参数。"
+  },
+  {
+    id: "w3-146",
+    date: "2026-09-16",
+    lemma: "exactness",
+    raw: "exactness",
+    pos: "n.",
+    phonetic: "/ɪɡˈzæktnəs/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "精确性；严密无误（指计算结果无近似误差，对比近似算法 Approximation）",
+    en: "The quality of being strictly accurate, precise, and free from approximation error.",
+    synonyms: ["precision", "rigor", "accuracy"],
+    collocations: ["mathematical exactness", "preserve exactness", "trade exactness for speed"],
+    morphology: "exact（精确的）+ -ness（名词后缀）",
+    dailyEn: "Financial accounting requires absolute exactness down to the last penny.",
+    dailyCn: "财务会计要求精确到每一分钱，绝对不能有偏差。",
+    ieltsEn: "Unlike probabilistic sketches, our deterministic index guarantees query exactness without incurring false positives.",
+    ieltsCn: "与概率型草图数据结构不同，我们的确定性索引保证了查询结果的精确性，不会产生假阳性误报。"
+  },
+  {
+    id: "w3-147",
+    date: "2026-09-16",
+    lemma: "composable",
+    raw: "Composable",
+    pos: "adj.",
+    phonetic: "/kəmˈpəʊzəbl/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "【软件架构/系统】可组合的；积木式模块化的（各组件可自由拼装嵌套而不破坏彼此语义）",
+    en: "Capable of being combined with other modular components in arbitrary ways to build complex systems cleanly.",
+    synonyms: ["modular", "interoperable", "plug-and-play"],
+    collocations: ["composable architecture", "composable operators", "composable data systems"],
+    morphology: "compose（组合）+ -able（可……的）。现代数据系统顶会热词（如 Composable Data Systems）。",
+    dailyEn: "Unix command-line tools are highly composable because you can pipe the output of one directly into another.",
+    dailyCn: "Unix 命令行工具具有极高的可组合性，因为你可以通过管道将一个工具的输出直接传给另一个工具。",
+    ieltsEn: "Designing composable primitives allows developers to construct custom analytical pipelines without rewriting low-level execution kernels.",
+    ieltsCn: "设计可组合的基础原语，使开发者无需重写底层执行内核即可构建自定义分析流水线。"
+  },
+  {
+    id: "w3-148",
+    date: "2026-09-16",
+    lemma: "expose",
+    raw: "Expose",
+    pos: "v.",
+    phonetic: "/ɪkˈspəʊz/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "①【CS】暴露 / 开放（向外提供 API 接口、硬件特性或配置参数）；② 揭露；使接触",
+    en: "In software engineering, to make an internal function, API endpoint, or hardware capability accessible to external callers.",
+    synonyms: ["make accessible", "surface", "uncover"],
+    collocations: ["expose an API", "expose fine-grained controls", "be exposed to"],
+    morphology: "ex-（向外）+ pose（放置）→ 摆到外面上层可调用的位置。",
+    dailyEn: "Studying abroad exposes you to different cultures and ways of thinking.",
+    dailyCn: "出国留学能让你接触到不同的文化和思维方式。",
+    ieltsEn: "The runtime exposes a declarative configuration interface while encapsulating low-level thread scheduling details.",
+    ieltsCn: "该运行时向外暴露了声明式的配置接口，同时将底层的线程调度细节封装在内部。"
+  },
+  {
+    id: "w3-149",
+    date: "2026-09-16",
+    lemma: "preserve",
+    raw: "Preserving",
+    pos: "v.",
+    phonetic: "/prɪˈzɜːv/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "保持；维持不变（如保序 Order-preserving、隐私保护 Privacy-preserving）；保存",
+    en: "To maintain something in its original or invariant state (such as order, accuracy, or privacy) during a transformation.",
+    synonyms: ["maintain", "retain", "conserve"],
+    collocations: ["privacy-preserving", "order-preserving", "while preserving accuracy"],
+    morphology: "pre-（提前）+ serve（守护/保持）。论文摘要神仙句型：...reduces overhead while preserving exactness.",
+    dailyEn: "Freezing fresh berries is a great way to preserve their vitamins.",
+    dailyCn: "冷冻新鲜浆果是保存其维生素的好方法。",
+    ieltsEn: "Order-preserving dictionary compression enables range predicates to be evaluated directly on encoded integer keys.",
+    ieltsCn: "保序字典压缩技术使范围谓词能够直接在编码后的整数键上进行计算。"
+  },
+  {
+    id: "w3-150",
+    date: "2026-09-16",
+    lemma: "enclose",
+    raw: "Is Enclosed",
+    pos: "v.",
+    phonetic: "/ɪnˈkləʊz/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "① 用（括号、引号或边界）括起来 / 围住；② 随函附上（附件）",
+    en: "To surround or close off on all sides (e.g., enclosing strings in quotation marks); to place within an envelope or package.",
+    synonyms: ["surround", "encapsulate", "attach"],
+    collocations: ["be enclosed in brackets/quotes", "enclosed document", "enclose herewith"],
+    morphology: "en-（进入/使）+ close（关闭）",
+    dailyEn: "Any text string containing spaces must be enclosed in double quotation marks.",
+    dailyCn: "任何包含空格的文本字符串都必须用双引号括起来。",
+    ieltsEn: "Each micro-benchmark execution is enclosed within a hardware performance counter barrier to isolate measurement noise.",
+    ieltsCn: "每次微基准测试的执行都被包裹在硬件性能计数器屏障之内，以隔离测量噪声。"
+  },
+  {
+    id: "w3-151",
+    date: "2026-09-16",
+    lemma: "separate",
+    raw: "Separates",
+    pos: "v. / adj.",
+    phonetic: "/ˈsepəreɪt/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "分离；切分；将……隔开（作动词读 /ˈsepəreɪt/，作形容词读 /ˈseprət/）",
+    en: "To cause to move or be apart; in architecture, to decouple distinct concerns such as control plane and data plane.",
+    synonyms: ["decouple", "segregate", "divide"],
+    collocations: ["separate storage from compute", "separate control and data planes", "keep separate"],
+    morphology: "se-（分开）+ par（准备/排列）+ -ate",
+    dailyEn: "A comma separates items in a standard CSV file.",
+    dailyCn: "在标准的 CSV 文件中，逗号用来分隔各个数据项。",
+    ieltsEn: "Our architecture cleanly separates policy formulation from mechanism execution, facilitating independent optimization of each layer.",
+    ieltsCn: "我们的架构将策略制定与机制执行清晰地分离开来，便于对每一层进行独立优化。"
+  },
+  {
+    id: "w3-152",
+    date: "2026-09-16",
+    lemma: "elapsed",
+    raw: "elapsed",
+    pos: "adj.",
+    phonetic: "/ɪˈlæpst/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "（时间）已经过去的；实际流逝的（Elapsed Time：挂钟真实耗时 Wall-clock Time）",
+    en: "Of time: having passed by; in benchmarking, total wall-clock time from start to finish of a task.",
+    synonyms: ["wall-clock", "passed", "transpired"],
+    collocations: ["elapsed time", "total elapsed nanoseconds", "measure elapsed runtime"],
+    morphology: "e-（出）+ lapse（滑过/流逝）+ -d",
+    dailyEn: "The timer on the screen shows the total elapsed time since the presentation started.",
+    dailyCn: "屏幕上的计时器显示自演讲开始以来已经过去的总时间。",
+    ieltsEn: "While CPU time sums active cycles across all threads, elapsed wall-clock time reflects the actual latency perceived by the end user.",
+    ieltsCn: "虽然 CPU 时间汇总了所有线程的活跃周期，但实际流逝的挂钟时间（elapsed time）才反映了终端用户感知到的真实延迟。"
+  },
+  {
+    id: "w3-153",
+    date: "2026-09-16",
+    lemma: "formulate",
+    raw: "formulate",
+    pos: "v.",
+    phonetic: "/ˈfɔːmjuleɪt/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "①【数学/CS】将……形式化建模为（Formulate X as an optimization problem）；② 构想；系统阐述",
+    en: "To express an idea or problem in a concise, systematic, or mathematical form; to devise a strategy or policy.",
+    synonyms: ["formalize", "devise", "frame"],
+    collocations: ["formulate the problem as", "formulate a hypothesis", "formulate a policy"],
+    morphology: "formula（公式/范式）+ -ate（动词后缀）。科研论文 Method 第一段必用动词！",
+    dailyEn: "Take a few minutes to formulate your thoughts before answering the interviewer's question.",
+    dailyCn: "在回答面试官的问题之前，先花几分钟理清并组织一下你的思路。",
+    ieltsEn: "We formulate adaptive operator routing as a constrained integer linear programming problem.",
+    ieltsCn: "我们将自适应算子路由形式化建模为一个带约束的整数线性规划问题。"
+  },
+  {
+    id: "w3-154",
+    date: "2026-09-16",
+    lemma: "analytical",
+    raw: "analytical",
+    pos: "adj.",
+    phonetic: "/ˌænəˈlɪtɪkl/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "① 分析型的（如分析型数据库查询 OLAP）；② 解析的（数学闭式解的，对比 Empirical 实证的）",
+    en: "Relating to or using analysis or logical reasoning; in databases, involving complex aggregations over large datasets (OLAP).",
+    synonyms: ["diagnostic", "closed-form", "investigative"],
+    collocations: ["analytical workload (OLAP)", "analytical cost model", "analytical skills"],
+    morphology: "analysis（分析）衍生形容词。",
+    dailyEn: "Writing a dissertation really sharpens your critical and analytical thinking.",
+    dailyCn: "撰写学位论文确实能磨练你的批判性与分析性思维。",
+    ieltsEn: "Our analytical cost model accurately predicts memory bandwidth saturation without requiring expensive runtime profiling.",
+    ieltsCn: "我们的解析成本模型无需高开销的运行时性能剖析，即可准确预测内存带宽饱和点。"
+  },
+  {
+    id: "w3-155",
+    date: "2026-09-16",
+    lemma: "assess",
+    raw: "assess",
+    pos: "v.",
+    phonetic: "/əˈses/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "评估；评定；估量（雅思写作与学术论文替代 evaluate / test 的高频核心词）",
+    en: "To evaluate or estimate the nature, ability, quality, or magnitude of something systematically.",
+    synonyms: ["evaluate", "appraise", "gauge"],
+    collocations: ["assess the impact of", "quantitatively assess", "assess feasibility"],
+    morphology: "as-（朝向）+ sess（坐，源自拉丁语 sedere）→ 评审官坐下来核定估算。",
+    dailyEn: "Coursework essays are used to assess your understanding of the module.",
+    dailyCn: "课程论文被用来评估你对这门课内容的理解程度。",
+    ieltsEn: "To quantitatively assess the sensitivity of our algorithm to hyperparameter choices, we sweep the threshold across three orders of magnitude.",
+    ieltsCn: "为了定量评估算法对超参数选择的敏感度，我们在三个数量级范围内对阈值进行了扫描测试。"
+  },
+  {
+    id: "w3-156",
+    date: "2026-09-16",
+    lemma: "algebra",
+    raw: "algebra",
+    pos: "n.",
+    phonetic: "/ˈældʒɪbrə/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "代数（如关系代数 Relational Algebra、线性代数 Linear Algebra）",
+    en: "The part of mathematics and computer science in which symbols and formal operators represent numbers, relations, and quantities.",
+    synonyms: ["symbolic mathematics", "formal calculus"],
+    collocations: ["relational algebra", "linear algebra", "Boolean algebra"],
+    morphology: "源自阿拉伯语 al-jabr（碎骨复位/移项合并）。数据库理论的基石：Relational Algebra（关系代数）。",
+    dailyEn: "A solid foundation in linear algebra is essential for understanding machine learning.",
+    dailyCn: "扎实的线性代数基础对于理解机器学习至关重要。",
+    ieltsEn: "Query optimizers apply equivalence-preserving relational algebra rewrite rules to push selections down below join operators.",
+    ieltsCn: "查询优化器应用保持等价性的关系代数重写规则，将选择过滤算子下推到连接算子之前执行。"
+  },
+  {
+    id: "w3-157",
+    date: "2026-09-16",
+    lemma: "bug",
+    raw: "bug",
+    pos: "n.",
+    phonetic: "/bʌɡ/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "程序缺陷；软件漏洞 / 故障；小虫",
+    en: "An error, flaw, or fault in the design, development, or operation of computer software or hardware that causes incorrect results.",
+    synonyms: ["defect", "flaw", "glitch"],
+    collocations: ["subtle concurrency bug", "reproduce a bug", "bug fix"],
+    morphology: "源于早期机电计算机继电器中卡入飞蛾导致故障的典故（1947年 Grace Hopper 记录）。",
+    dailyEn: "It took me three hours to track down a tiny off-by-one bug in the loop.",
+    dailyCn: "我花了三个小时才追踪到循环里一个微小的差一错误（off-by-one bug）。",
+    ieltsEn: "Automated fuzzing frameworks systematically mutate inputs to uncover subtle memory-safety bugs in systems software.",
+    ieltsCn: "自动化模糊测试框架通过对输入进行系统性变异，来发掘系统软件中隐蔽的内存安全漏洞。"
+  },
+  {
+    id: "w3-158",
+    date: "2026-09-16",
+    lemma: "paraphrase",
+    raw: "paraphrases",
+    pos: "v. / n.",
+    phonetic: "/ˈpærəfreɪz/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "改写；同义转述（用不同的词汇和句型表达相同的语义，雅思写作与 NLP 核心词）",
+    en: "A rewording of something written or spoken using different words to achieve greater clarity or avoid plagiarism.",
+    synonyms: ["rephrase", "rewording", "restatement"],
+    collocations: ["paraphrase the prompt", "semantically equivalent paraphrases", "paraphrase generation"],
+    morphology: "para-（在旁边/平行）+ phrase（短语表达）→ 平行转换的同义表达。",
+    dailyEn: "In IELTS Writing Task 2, always paraphrase the essay question in your introduction rather than copying it word for word.",
+    dailyCn: "在雅思大作文中，引言段一定要对题目进行同义改写，而不是逐字照抄。",
+    ieltsEn: "Evaluating language models across diverse paraphrases of the same query assesses their robustness to surface-level lexical variations.",
+    ieltsCn: "在同一查询的多种同义改写形式上评估语言模型，可以检验其对表层词汇变化的鲁棒性。"
+  },
+  {
+    id: "w3-159",
+    date: "2026-09-16",
+    lemma: "denote",
+    raw: "denote",
+    pos: "v.",
+    phonetic: "/dɪˈnəʊt/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "表示；代表；记作（数学公式与算法伪代码定义符号时的绝对高频动词）",
+    en: "To stand as a symbol or mathematical notation for; to indicate explicitly.",
+    synonyms: ["represent", "signify", "designate"],
+    collocations: ["let X denote...", "denote the set of", "boldface letters denote vectors"],
+    morphology: "de-（完全/强调）+ note（标记）→ 用符号明确标记代表。",
+    dailyEn: "In traffic signs, a red circle usually denotes a prohibition.",
+    dailyCn: "在交通标志中，红色圆圈通常表示禁止。",
+    ieltsEn: "Throughout this paper, we use calligraphic letters to denote sets and boldface lowercase letters to denote column vectors.",
+    ieltsCn: "在本文通篇中，我们使用花体字母表示集合，使用粗体小写字母表示列向量。"
+  },
+  {
+    id: "w3-160",
+    date: "2026-09-16",
+    lemma: "neuroinclusive study sessions",
+    raw: "neuroinclusive study sessions",
+    pos: "n. phr.",
+    phonetic: "/ˌnjʊərəʊɪnˈkluːsɪv ˈstʌdi ˈseʃnz/",
+    domain: "英式日常",
+    freq: 1,
+    cn: "神经多样性包容性自习会（照顾 ADHD、自闭谱系等不同认知风格学生的互助学习活动）",
+    en: "Structured group study environments designed to accommodate and support individuals with diverse neurological styles (such as ADHD, autism, or dyslexia).",
+    synonyms: ["neurodiversity-friendly co-working", "inclusive focus groups"],
+    collocations: ["attend neuroinclusive study sessions", "body-doubling accountability", "accessible learning environment"],
+    morphology: "neuro-（神经系统的）+ inclusive（包容性的）+ study sessions（自习时段/学习会）。英国高校学生会（SU）与福祉中心极富人文关怀的现代短语。",
+    dailyEn: "The library hosts neuroinclusive study sessions every Tuesday with quiet zones, timers, and body-doubling support.",
+    dailyCn: "图书馆每周二举办神经多样性包容性自习会，提供安静区、番茄钟计时和同伴陪伴支持。",
+    ieltsEn: "By introducing neuroinclusive study sessions alongside traditional tutorials, universities cultivate an equitable academic environment for diverse learners.",
+    ieltsCn: "通过在传统辅导课之外引入神经多样性包容性自习会，高校为不同认知特点的学习者营造了公平的学术环境。"
+  },
+  {
+    id: "w3-161",
+    date: "2026-09-16",
+    lemma: "partition",
+    raw: "partition",
+    pos: "n. / v.",
+    phonetic: "/pɑːˈtɪʃn/",
+    domain: "CS & 系统",
+    freq: 1,
+    cn: "【数据库/分布式/算法】分区；数据切分（将大表或图切分为互不重叠的子集）",
+    en: "The division of a database, storage drive, or graph into distinct, non-overlapping independent parts; to divide into parts.",
+    synonyms: ["shard", "segment", "subdivide"],
+    collocations: ["horizontal partitioning", "partition pruning", "network partition"],
+    morphology: "part（部分）+ -ition",
+    dailyEn: "We used a wooden screen to partition the studio flat into a sleeping area and a workspace.",
+    dailyCn: "我们用一扇木屏风把单间公寓分隔成了睡眠区和工作区。",
+    ieltsEn: "Hash-based partitioning distributes workload evenly across worker nodes, whereas range partitioning preserves locality for interval queries.",
+    ieltsCn: "基于哈希的分区能将工作负载均匀分布到各个工作节点，而范围分区则能为区间查询保留局部性。"
+  },
+  {
+    id: "w3-162",
+    date: "2026-09-16",
+    lemma: "compound exclusion & accordingly",
+    raw: "compound exclusion / Accordingly",
+    pos: "n. phr. / adv.",
+    phonetic: "/ˈkɒmpaʊnd ɪkˈskluːʒn/ · /əˈkɔːdɪŋli/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "复合排除规则（多条件组合过滤剔除） & 相应地 / 因此（Accordingly）",
+    en: "Filtering out records based on multiple combined criteria simultaneously; and in a way that is appropriate to the particular circumstances ('therefore').",
+    synonyms: ["multi-predicate filtering", "consequently", "correspondingly"],
+    collocations: ["compound exclusion criteria", "adjust parameters accordingly", "act accordingly"],
+    morphology: "compound（复合的）+ exclusion（排除）；according（根据/一致）+ -ly → 学术论文推导因果关系的黄金过渡副词。",
+    dailyEn: "We've updated the project timeline; please adjust your personal schedules accordingly.",
+    dailyCn: "我们已经更新了项目时间线，请大家相应地调整各自的日程安排。",
+    ieltsEn: "Samples violating the compound exclusion criteria are discarded during preprocessing, and normalization weights are recalibrated accordingly.",
+    ieltsCn: "违反复合排除标准的样本在预处理阶段被剔除，归一化权重也随之进行相应重新校准。"
+  },
+  {
+    id: "w3-163",
+    date: "2026-09-16",
+    lemma: "illustrative & diversity",
+    raw: "illustrative / Diversity / graduate students",
+    pos: "adj. / n.",
+    phonetic: "/ˈɪləstrətɪv/ · /daɪˈvɜːsəti/",
+    domain: "学术高频",
+    freq: 1,
+    cn: "起例证说明作用的（Illustrative） & 多样性（Diversity） & 研究生（Graduate Students）",
+    en: "Serving as a clear example or explanation; the state of including a wide range of different types or backgrounds; postgraduate learners.",
+    synonyms: ["explanatory", "exemplary", "variety", "postgraduates"],
+    collocations: ["illustrative example", "workload diversity", "graduate students"],
+    morphology: "illustrate（阐明/图解）+ -ive；diverse（多样的）+ -ity。（注：已完整囊括 9月16日 末尾收官的三个词条）。",
+    dailyEn: "The professor used a simple illustrative example to explain the complex algebra to new graduate students.",
+    dailyCn: "教授用了一个简单的说明性例子，向新入学的研究生们解释那段复杂的代数。",
+    ieltsEn: "Figure 2 provides an illustrative walkthrough of our algorithm, while Section 5 evaluates its robustness across a high diversity of real-world workloads.",
+    ieltsCn: "图 2 提供了我们算法的图解说明示例，而第 5 节则在高度多样化的真实世界工作负载上评估了其鲁棒性。"
   }
 ];
 
@@ -1614,67 +3193,86 @@ function getDomainClass(domain) {
   return "domain-daily";
 }
 
-// ==================== 50张高清自然风光壁纸库（山水、雪地、冰川、河流、森林） ====================
-const NATURE_WALLPAPERS = [
-  "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80", // 1. 优胜美地山谷与河流
-  "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80", // 2. 壮丽山脉云海
-  "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1920&q=80", // 3. 星空下的皑皑雪山
-  "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1920&q=80", // 4. 晨雾缭绕的山林
-  "https://images.unsplash.com/photo-1439853949127-fa647821eba0?auto=format&fit=crop&w=1920&q=80", // 5. 翡翠高山湖泊与峰峦
-  "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1920&q=80", // 6. 阳光森林与溪流峡谷
-  "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80", // 7. 阿尔卑斯静谧山水湖面
-  "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=1920&q=80", // 8. 翠绿山谷日出
-  "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1920&q=80", // 9. 旷野孤峰与晨光
-  "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1920&q=80", // 10. 幽静森林古木吊桥
-  "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=1920&q=80", // 11. 深林繁花与溪谷
-  "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?auto=format&fit=crop&w=1920&q=80", // 12. 极寒雪山之巅迷雾
-  "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80", // 13. 宁静海岸线与远山
-  "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80", // 14. 冰岛黑沙滩与雪原
-  "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=1920&q=80", // 15. 喜马拉雅冷峻雪峰
-  "https://images.unsplash.com/photo-1491555103944-7c647fd857e6?auto=format&fit=crop&w=1920&q=80", // 16. 阿尔卑斯冬季雪脊
-  "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?auto=format&fit=crop&w=1920&q=80", // 17. 金色日照金山雪顶
-  "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=1920&q=80", // 18. 森林飞瀑与翠绿深潭
-  "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1920&q=80", // 19. 阳光穿透高耸松林
-  "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80", // 20. 雪山脚下的镜面湖泊
-  "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1920&q=80", // 21. 蜿蜒山间公路与秋林
-  "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?auto=format&fit=crop&w=1920&q=80", // 22. 朝霞映照的海湾奇石
-  "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1920&q=80", // 23. 苍翠参天古树光影
-  "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=1920&q=80", // 24. 北欧针叶林与薄雾
-  "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=1920&q=80", // 25. 洛基山脉冰川湖泊
-  "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=1920&q=80", // 26. 仰望森林峡谷一线天
-  "https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?auto=format&fit=crop&w=1920&q=80", // 27. 茂密松林与远方山脊
-  "https://images.unsplash.com/photo-1464802686167-b939a6910659?auto=format&fit=crop&w=1920&q=80", // 28. 极夜星云与雪野长空
-  "https://images.unsplash.com/photo-1477346611705-65d1883cee1e?auto=format&fit=crop&w=1920&q=80", // 29. 暗调冷峻山峰与云雾
-  "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?auto=format&fit=crop&w=1920&q=80", // 30. 黄金落日与平静水面
-  "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1920&q=80", // 31. 秋季彩林与雪山倒影
-  "https://images.unsplash.com/photo-1434725039720-aaad6dd32dfe?auto=format&fit=crop&w=1920&q=80", // 32. 晨曦草甸与层峦叠嶂
-  "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1920&q=80", // 33. 红松林与山间迷雾
-  "https://images.unsplash.com/photo-1482192505345-5655af888cc4?auto=format&fit=crop&w=1920&q=80", // 34. 冰封雪原上的孤寂木屋
-  "https://images.unsplash.com/photo-1517299321609-52687d1bc55a?auto=format&fit=crop&w=1920&q=80", // 35. 漫天飞雪中的冬日松林
-  "https://images.unsplash.com/photo-1483921020237-2ff51e8e4b22?auto=format&fit=crop&w=1920&q=80", // 36. 纯白雪地与远山晴空
-  "https://images.unsplash.com/photo-1457269449834-928af64c684d?auto=format&fit=crop&w=1920&q=80", // 37. 极地冰晶与雪原风光
-  "https://images.unsplash.com/photo-1491002052546-bf38f186af56?auto=format&fit=crop&w=1920&q=80", // 38. 银装素裹的森林雪道
-  "https://images.unsplash.com/photo-1516466723877-e4ec1d736c8a?auto=format&fit=crop&w=1920&q=80", // 39. 冬季冰封河谷与雪峰
-  "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80", // 40. 瑞士山水峡湾与轻舟
-  "https://images.unsplash.com/photo-1504893524553-b855bce32c67?auto=format&fit=crop&w=1920&q=80", // 41. 蜿蜒穿行于山谷的河流
-  "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1920&q=80", // 42. 森林湍急清澈河溪
-  "https://images.unsplash.com/photo-1455218873509-8097305ee378?auto=format&fit=crop&w=1920&q=80", // 43. 壮阔瀑布与深谷激流
-  "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=1920&q=80", // 44. 晚霞映射下的雪山湖畔
-  "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1920&q=85", // 45. 寒夜雪山星河万里
-  "https://images.unsplash.com/photo-1465056836041-7f43ac27dcb5?auto=format&fit=crop&w=1920&q=80", // 46. 新西兰南岛冰川雪山
-  "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=85", // 47. 晨光河谷与花岗岩峭壁
-  "https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?auto=format&fit=crop&w=1920&q=80", // 48. 春日高山草甸与远方雪顶
-  "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8e?auto=format&fit=crop&w=1920&q=80", // 49. 多洛米蒂奇峰与静谧草坡
-  "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?auto=format&fit=crop&w=1920&q=80"  // 50. 极光夜空下的冰封雪地与山川
+// ==================== 50张 4K UHD 超高清自然风光壁纸库（山水、雪地、冰川、河流、森林） ====================
+const RAW_WALLPAPER_IDS = [
+  "photo-1506744038136-46273834b3fb", // 1. 优胜美地山谷与河流
+  "photo-1464822759023-fed622ff2c3b", // 2. 壮丽山脉云海
+  "photo-1519681393784-d120267933ba", // 3. 星空下的皑皑雪山
+  "photo-1470071459604-3b5ec3a7fe05", // 4. 晨雾缭绕的山林
+  "photo-1439853949127-fa647821eba0", // 5. 翡翠高山湖泊与峰峦
+  "photo-1426604966848-d7adac402bff", // 6. 阳光森林与溪流峡谷
+  "photo-1501785888041-af3ef285b470", // 7. 阿尔卑斯静谧山水湖面
+  "photo-1472214103451-9374bd1c798e", // 8. 翠绿山谷日出
+  "photo-1469474968028-56623f02e42e", // 9. 旷野孤峰与晨光
+  "photo-1447752875215-b2761acb3c5d", // 10. 幽静森林古木吊桥
+  "photo-1465146344425-f00d5f5c8f07", // 11. 深林繁花与溪谷
+  "photo-1483728642387-6c3bdd6c93e5", // 12. 极寒雪山之巅迷雾
+  "photo-1507525428034-b723cf961d3e", // 13. 宁静海岸线与远山
+  "photo-1518709268805-4e9042af9f23", // 14. 冰岛黑沙滩与雪原
+  "photo-1454496522488-7a8e488e8606", // 15. 喜马拉雅冷峻雪峰
+  "photo-1491555103944-7c647fd857e6", // 16. 阿尔卑斯冬季雪脊
+  "photo-1486870591958-9b9d0d1dda99", // 17. 金色日照金山雪顶
+  "photo-1433086966358-54859d0ed716", // 18. 森林飞瀑与翠绿深潭
+  "photo-1441974231531-c6227db76b6e", // 19. 阳光穿透高耸松林
+  "photo-1470770841072-f978cf4d019e", // 20. 雪山脚下的镜面湖泊
+  "photo-1500530855697-b586d89ba3ee", // 21. 蜿蜒山间公路与秋林
+  "photo-1475924156734-496f6cac6ec1", // 22. 朝霞映照的海湾奇石
+  "photo-1502082553048-f009c37129b9", // 23. 苍翠参天古树光影
+  "photo-1511497584788-876760111969", // 24. 北欧针叶林与薄雾
+  "photo-1493246507139-91e8fad9978e", // 25. 洛基山脉冰川湖泊
+  "photo-1513836279014-a89f7a76ae86", // 26. 仰望森林峡谷一线天
+  "photo-1418065460487-3e41a6c84dc5", // 27. 茂密松林与远方山脊
+  "photo-1464802686167-b939a6910659", // 28. 极夜星云与雪野长空
+  "photo-1477346611705-65d1883cee1e", // 29. 暗调冷峻山峰与云雾
+  "photo-1490730141103-6cac27aaab94", // 30. 黄金落日与平静水面
+  "photo-1505765050516-f72dcac9c60e", // 31. 秋季彩林与雪山倒影
+  "photo-1434725039720-aaad6dd32dfe", // 32. 晨曦草甸与层峦叠嶂
+  "photo-1509316975850-ff9c5deb0cd9", // 33. 红松林与山间迷雾
+  "photo-1482192505345-5655af888cc4", // 34. 冰封雪原上的孤寂木屋
+  "photo-1517299321609-52687d1bc55a", // 35. 漫天飞雪中的冬日松林
+  "photo-1483921020237-2ff51e8e4b22", // 36. 纯白雪地与远山晴空
+  "photo-1457269449834-928af64c684d", // 37. 极地冰晶与雪原风光
+  "photo-1491002052546-bf38f186af56", // 38. 银装素裹的森林雪道
+  "photo-1516466723877-e4ec1d736c8a", // 39. 冬季冰封河谷与雪峰
+  "photo-1476514525535-07fb3b4ae5f1", // 40. 瑞士山水峡湾与轻舟
+  "photo-1504893524553-b855bce32c67", // 41. 蜿蜒穿行于山谷的河流
+  "photo-1437482078695-73f5ca6c96e2", // 42. 森林湍急清澈河溪
+  "photo-1455218873509-8097305ee378", // 43. 壮阔瀑布与深谷激流
+  "photo-1508739773434-c26b3d09e071", // 44. 晚霞映射下的雪山湖畔
+  "photo-1542224566-6e85f2e6772f", // 45. 破晓云海山巅
+  "photo-1465056836041-7f43ac27dcb5", // 46. 新西兰南岛冰川雪山
+  "photo-1464278533981-50106e6176b1", // 47. 晨光河谷与花岗岩峭壁
+  "photo-1470240731273-7821a6eeb6bd", // 48. 春日高山草甸与远方雪顶
+  "photo-1518098268026-4e89f1a2cd8e", // 49. 多洛米蒂奇峰与静谧草坡
+  "photo-1531366936337-7c912a4589a7"  // 50. 极光夜空下的冰封雪地与山川
 ];
 
+// 统一生成 4K UHD (3840px) + q=95 高清无损画质链接
+const NATURE_WALLPAPERS = RAW_WALLPAPER_IDS.map(
+  id => `https://images.unsplash.com/${id}?auto=format&fit=crop&w=3840&q=95`
+);
+
 let currentBgIndex = Math.floor(Math.random() * NATURE_WALLPAPERS.length);
+let isAllExpanded = false; // 全局一键展开锁定状态
 
 function applyWallpaper(index) {
   currentBgIndex = (index + NATURE_WALLPAPERS.length) % NATURE_WALLPAPERS.length;
   const url = NATURE_WALLPAPERS[currentBgIndex];
+
+  // 预加载4K大图，加载完成后平滑切换，避免闪烁并预热下一张
+  const img = new Image();
+  img.src = url;
+  img.onload = () => {
+    document.body.style.setProperty("--custom-wallpaper", `url('${url}')`);
+    document.body.classList.add("has-wallpaper");
+  };
+  // 兜底立即设置
   document.body.style.setProperty("--custom-wallpaper", `url('${url}')`);
   document.body.classList.add("has-wallpaper");
+
+  // 预热下一张壁纸
+  const nextImg = new Image();
+  nextImg.src = NATURE_WALLPAPERS[(currentBgIndex + 1) % NATURE_WALLPAPERS.length];
 
   const label = document.getElementById("bgIndexLabel");
   if (label) {
@@ -1691,7 +3289,7 @@ function restoreMinimalBackground() {
   if (minimalBtn) minimalBtn.classList.add("active");
 }
 
-// ==================== 渲染卡片网格（新增悬停展开 + 移出卡片自动收回） ====================
+// ==================== 渲染卡片网格 ====================
 function getDomainClass(domain) {
   if (domain === "CS & 系统") return "domain-cs";
   if (domain === "学术高频") return "domain-acad";
@@ -1729,9 +3327,11 @@ function renderCards() {
     const status = getWordStatus(item.id);
     const showRawDiff = item.raw.toLowerCase() !== item.lemma.toLowerCase();
     const shortDate = item.date.slice(5);
+    const expandedClass = isAllExpanded ? "expanded" : "";
+    const arrowSymbol = isAllExpanded ? "▴" : "▾";
 
     return `
-      <article class="word-card" data-id="${item.id}" onmouseleave="collapseCardOnLeave(this)">
+      <article class="word-card ${expandedClass}" data-id="${item.id}" onmouseleave="collapseCardOnLeave(this)">
         <div class="card-top">
           <div class="badge-group">
             <span class="domain-badge ${getDomainClass(item.domain)}">${item.domain}</span>
@@ -1769,7 +3369,7 @@ function renderCards() {
           onmouseenter="expandCardOnHover(this)"
         >
           <span>展开搭配、构词与双语境造句</span>
-          <span class="arrow">▾</span>
+          <span class="arrow">${arrowSymbol}</span>
         </button>
 
         <div class="drawer-content">
@@ -1810,16 +3410,18 @@ function renderCards() {
   }).join("");
 }
 
-// 1. 原有点击切换展开/收起（保持不变）
+// 1. 单卡点击切换（当「一键展开」锁定时不起作用）
 function toggleCardDrawer(btn) {
+  if (isAllExpanded) return;
   const card = btn.closest(".word-card");
   card.classList.toggle("expanded");
   const arrow = btn.querySelector(".arrow");
-  arrow.textContent = card.classList.contains("expanded") ? "▴" : "▾";
+  if (arrow) arrow.textContent = card.classList.contains("expanded") ? "▴" : "▾";
 }
 
-// 2. 新增：鼠标移动到「展开搭配、构词与双语境造句」上时，自动展开为截图2效果
+// 2. 鼠标移入「展开搭配、构词与双语境造句」自动展开（当「一键展开」锁定时不起作用）
 function expandCardOnHover(btn) {
+  if (isAllExpanded) return;
   const card = btn.closest(".word-card");
   if (!card.classList.contains("expanded")) {
     card.classList.add("expanded");
@@ -1828,8 +3430,9 @@ function expandCardOnHover(btn) {
   }
 }
 
-// 3. 新增：鼠标移出整个单词卡片范围后，自动收回为截图1效果
+// 3. 鼠标移出整个单词卡片范围后自动收回（当「一键展开」锁定时不起作用）
 function collapseCardOnLeave(card) {
+  if (isAllExpanded) return;
   if (card.classList.contains("expanded")) {
     card.classList.remove("expanded");
     const arrow = card.querySelector(".drawer-toggle .arrow");
@@ -1844,11 +3447,10 @@ function renderAll() {
 
 // ==================== 事件绑定 ====================
 document.addEventListener("DOMContentLoaded", () => {
-  // 每次打开网页自动随机应用一张自然风景图
   applyWallpaper(currentBgIndex);
   renderAll();
 
-  // 切换下一张随机/顺序自然风景
+  // 切换下一张 4K 自然风景
   const bgSwitchBtn = document.getElementById("bgSwitchBtn");
   if (bgSwitchBtn) {
     bgSwitchBtn.addEventListener("click", () => {
@@ -1861,6 +3463,28 @@ document.addEventListener("DOMContentLoaded", () => {
   if (bgMinimalBtn) {
     bgMinimalBtn.addEventListener("click", () => {
       restoreMinimalBackground();
+    });
+  }
+
+  // 新增：一键展开 / 一键收回全局锁定开关
+  const expandAllBtn = document.getElementById("expandAllToggle");
+  if (expandAllBtn) {
+    expandAllBtn.addEventListener("click", () => {
+      isAllExpanded = !isAllExpanded;
+      document.body.classList.toggle("expand-all-locked", isAllExpanded);
+      expandAllBtn.classList.toggle("active", isAllExpanded);
+
+      const label = document.getElementById("expandAllLabel");
+      const icon = expandAllBtn.querySelector(".icon");
+      if (label) label.textContent = isAllExpanded ? "一键收回" : "一键展开";
+      if (icon) icon.textContent = isAllExpanded ? "📁" : "📂";
+
+      // 同步当前页面上所有卡片的展开/收回状态
+      document.querySelectorAll(".word-card").forEach(card => {
+        card.classList.toggle("expanded", isAllExpanded);
+        const arrow = card.querySelector(".drawer-toggle .arrow");
+        if (arrow) arrow.textContent = isAllExpanded ? "▴" : "▾";
+      });
     });
   }
 

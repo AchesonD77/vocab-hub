@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lexis.Pro — 个人学术与生活语料库</title>
+  <title>Lexis.Pro</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -26,7 +26,7 @@
         <div class="brand-logo">L</div>
         <div class="brand-text">
           <span class="brand-title">Lexis<span class="accent-dot">.</span>Pro</span>
-          <span class="brand-subtitle">Personal Corpus & Active Recall</span>
+          <span class="brand-subtitle">World Corpus & Active Recall</span>
         </div>
         <select id="weekSelector" class="week-select" aria-label="选择周次">
           <option value="2026-09-w3">2026年 · 9月第3周</option>
@@ -44,6 +44,12 @@
         <button id="bgMinimalBtn" class="pill-btn" title="恢复 Apple × Revolut 极简纯色极光背景">
           <span class="icon">✨</span>
           <span>极简背景</span>
+        </button>
+
+        <!-- 新增：一键展开 / 一键收回全局锁定按钮 -->
+        <button id="expandAllToggle" class="pill-btn" title="点击后展开所有单词详情并锁定，再次点击全部收回">
+          <span class="icon">📂</span>
+          <span id="expandAllLabel">一键展开</span>
         </button>
 
       <div class="nav-actions">
@@ -172,7 +178,13 @@
   </main>
 
   <footer class="site-footer">
-    <p>Lexis.Pro Personal Vocabulary Engine · Hosted on GitHub Pages · Crafted with Apple & Revolut Design Language</p>
+    <p>
+      Lexis.Pro
+      <span class="footer-dot">&middot;</span>
+      <a href="https://github.com/AchesonD77" target="_blank" rel="noopener noreferrer" class="author-link">Dan</a>
+      <span class="footer-dot">&middot;</span>
+      Copyright &copy; 2025&ndash;2026
+    </p>
   </footer>
 
   <script src="js/app.js"></script>

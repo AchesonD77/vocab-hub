@@ -744,7 +744,7 @@ body.recall-mode .word-card.revealed .drawer-content {
 }
 
 
-/* ==================== 50张自然风光壁纸图层与暗角遮罩 ==================== */
+/* ==================== 4K超清自然风光壁纸图层（零模糊原画画质） ==================== */
 body.has-wallpaper::before {
   content: "";
   position: fixed;
@@ -754,43 +754,79 @@ body.has-wallpaper::before {
   background-position: center;
   background-repeat: no-repeat;
   z-index: -2;
-  transition: background-image 0.6s ease-in-out, transform 0.8s ease;
+  /* 开启GPU硬件加速与高质量图像渲染，保证4K壁纸纤毫毕现 */
+  transform: translateZ(0);
+  will-change: background-image;
+  image-rendering: -webkit-optimize-contrast;
+  transition: background-image 0.5s ease-in-out;
 }
 
 body.has-wallpaper::after {
   content: "";
   position: fixed;
   inset: 0;
-  /* 智能暗色渐变遮罩：既透出山水雪景，又保证卡片文字100%清晰可读 */
-  background: radial-gradient(circle at center, rgba(7, 8, 12, 0.50) 0%, rgba(7, 8, 12, 0.82) 100%);
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
+  /* 移除 backdrop-filter: blur，仅保留轻薄通透的暗角渐变以衬托文字，100%还原4K锐利画质 */
+  background: radial-gradient(circle at center, rgba(7, 8, 12, 0.28) 0%, rgba(7, 8, 12, 0.68) 100%);
   z-index: -1;
   pointer-events: none;
 }
 
 :root[data-theme="light"] body.has-wallpaper::after {
-  background: radial-gradient(circle at center, rgba(245, 245, 247, 0.55) 0%, rgba(245, 245, 247, 0.85) 100%);
+  background: radial-gradient(circle at center, rgba(245, 245, 247, 0.30) 0%, rgba(245, 245, 247, 0.72) 100%);
 }
 
 body.has-wallpaper .word-card,
 body.has-wallpaper .bento-card,
 body.has-wallpaper .filter-bar {
-  background: rgba(14, 16, 24, 0.72);
-  backdrop-filter: blur(22px);
-  -webkit-backdrop-filter: blur(22px);
+  background: rgba(12, 14, 22, 0.76);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   border-color: rgba(255, 255, 255, 0.14);
 }
 
 :root[data-theme="light"] body.has-wallpaper .word-card,
 :root[data-theme="light"] body.has-wallpaper .bento-card,
 :root[data-theme="light"] body.has-wallpaper .filter-bar {
-  background: rgba(255, 255, 255, 0.78);
+  background: rgba(255, 255, 255, 0.82);
   border-color: rgba(0, 0, 0, 0.1);
 }
 
-/* 悬停触发区交互高亮提示 */
-.drawer-toggle {
-  padding: 0.45rem 0.2rem 0.15rem;
-  transition: color 0.2s ease;
+/* ==================== 一键展开（全局锁定展开状态） ==================== */
+body.expand-all-locked .word-card .drawer-content {
+  display: flex !important;
+}
+
+body.expand-all-locked .word-card .drawer-toggle {
+  cursor: default;
+  opacity: 0.75;
+}
+
+/* ==================== 底部版权作者 GitHub 链接样式 ==================== */
+.site-footer {
+  text-align: center;
+  padding: 2.5rem 1rem;
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  letter-spacing: 0.01em;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.author-link {
+  color: var(--text-primary);
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 0.35rem;
+  padding-bottom: 1px;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.author-link:hover {
+  color: #818cf8;
+  border-bottom-color: #818cf8;
+}
+
+.footer-dot {
+  margin: 0 0.45rem;
+  opacity: 0.5;
 }
