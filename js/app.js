@@ -3137,16 +3137,65 @@ function cycleWordStatus(id) {
 }
 
 // ==================== Web Speech API 真人朗读 ====================
+// ==================== 升级版 Web Speech API (优先调用高级自然语音) ====================
+let availableVoices = [];
+
+// 预加载并筛选浏览器的可用语音包
+function loadVoices() {
+  availableVoices = window.speechSynthesis.getVoices();
+}
+
+// 监听语音包加载完成事件（部分浏览器需要异步加载）
+if ("speechSynthesis" in window) {
+  window.speechSynthesis.onvoiceschanged = loadVoices;
+  loadVoices();
+}
+
+function getBestVoice(accent) {
+  if (availableVoices.length === 0) loadVoices();
+  
+  // 1. 筛选匹配口音（en-GB 或 en-US）的所有语音
+  const matchedVoices = availableVoices.filter(v => v.lang === accent || v.lang.replace('_', '-') === accent);
+  
+  if (matchedVoices.length === 0) return null;
+
+  // 2. 优先匹配高级/自然发音引擎（排除机械音）
+  let bestVoice = null;
+  if (accent === "en-US") {
+    // 美音优先选用：微软 Zira, 谷歌在线语音, 或带 "Premium" / "Natural" 标识的语音
+    bestVoice = matchedVoices.find(v => v.name.includes("Zira") || v.name.includes("Google US English") || v.name.includes("Premium") || v.name.includes("Samantha"));
+  } else {
+    // 英音优先选用：微软 Hazel, 谷歌英式, 或 Daniel
+    bestVoice = matchedVoices.find(v => v.name.includes("Hazel") || v.name.includes("Google UK English") || v.name.includes("Daniel"));
+  }
+
+  // 3. 如果没找到特殊的高级引擎，直接返回匹配口音列表中的第一个
+  return bestVoice || matchedVoices[0];
+}
+
 function speakText(text, event) {
   if (event) event.stopPropagation();
   if (!("speechSynthesis" in window)) {
     alert("当前浏览器不支持语音合成功能，建议使用 Chrome / Edge / Safari。");
     return;
   }
+  
   window.speechSynthesis.cancel();
   const utterance = new SpeechSynthesisUtterance(text);
+  
+  // 应用高级语音包
+  const selectedVoice = getBestVoice(currentAccent);
+  if (selectedVoice) {
+    utterance.voice = selectedVoice;
+  }
+  
   utterance.lang = currentAccent;
-  utterance.rate = 0.94;
+  
+  // 稍微降低语速让发音更清晰自然 (默认是 1)
+  utterance.rate = 0.90; 
+  // 稍微降低音调，减少部分机械女声的尖锐感
+  utterance.pitch = 0.95; 
+
   window.speechSynthesis.speak(utterance);
 }
 
@@ -3259,7 +3308,7 @@ function applyWallpaper(index) {
   currentBgIndex = (index + NATURE_WALLPAPERS.length) % NATURE_WALLPAPERS.length;
   const url = NATURE_WALLPAPERS[currentBgIndex];
 
-  // 预加载4K大图，加载完成后平滑切换，避免闪烁并预热下一张
+  // 预加载4K大图
   const img = new Image();
   img.src = url;
   img.onload = () => {
@@ -3274,10 +3323,7 @@ function applyWallpaper(index) {
   const nextImg = new Image();
   nextImg.src = NATURE_WALLPAPERS[(currentBgIndex + 1) % NATURE_WALLPAPERS.length];
 
-  const label = document.getElementById("bgIndexLabel");
-  if (label) {
-    label.textContent = `切换风景 (${currentBgIndex + 1}/50)`;
-  }
+  // （已移除此处原来更新 bgIndexLabel 文字的逻辑）
   const minimalBtn = document.getElementById("bgMinimalBtn");
   if (minimalBtn) minimalBtn.classList.remove("active");
 }
